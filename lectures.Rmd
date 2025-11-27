@@ -65,7 +65,7 @@ If you are a FISH 521 student, this website will be your resource for all course
 
 **In-class activities:** 
 
-* [In-class presentation](docs/lectures/week_01/lec_01_class_overview.html)
+* [In-class presentation](html=c("docs/lectures/week_01/lec_01_class_overview.html"))
 * Developing a time management system that works for you
 * Creating your mentoring map
 * Developing your literature search strategies
@@ -184,6 +184,7 @@ If you are a FISH 521 student, this website will be your resource for all course
 
 * [How to critically evaluate a research paper](https://www.youtube.com/watch?v=64DHO3hAeSM)
 * [How to deal with manuscript rejections](https://www.youtube.com/watch?v=ZpZNTEHVmdw)
+* [How to revise and resubmit in no time](https://members.ncfdd.org/hhchapter6)
 
 **In-class activity:** 
 
@@ -258,7 +259,7 @@ If you are a FISH 521 student, this website will be your resource for all course
 
 **Required videos:** 
 
-* None!
+* [The art of saying "yes": Seeking and securing opportunities in academia](https://members.ncfdd.org/hhchapter9)
 
 **In-class activity:** 
 
