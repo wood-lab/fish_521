@@ -37,13 +37,14 @@ If you are a FISH 521 student, this website will be your resource for all course
 **Topics to be covered:**
 
 * Course overview
-* Time management
 * Building a mentorship network
+* Time management
 * Writing habits
 * Searching the literature
 * Reference management
+* What do you want to learn this quarter?
 
-**Required readings:** 
+**Required:** 
 
 * [*Field Guide to Graduate School*](https://press.princeton.edu/books/paperback/9780691201092/a-field-guide-to-grad-school?srsltid=AfmBOooNXYYd-0yyIIr7Mz0qAQNxbQ8wfWQz-Qod86wn9DO9pQPIWTcE) Introduction
 * [*Field Guide to Graduate School*](https://press.princeton.edu/books/paperback/9780691201092/a-field-guide-to-grad-school?srsltid=AfmBOooNXYYd-0yyIIr7Mz0qAQNxbQ8wfWQz-Qod86wn9DO9pQPIWTcE) Chapter 2: Building your team
@@ -51,14 +52,26 @@ If you are a FISH 521 student, this website will be your resource for all course
 * [*Field Guide to Graduate School*](https://press.princeton.edu/books/paperback/9780691201092/a-field-guide-to-grad-school?srsltid=AfmBOooNXYYd-0yyIIr7Mz0qAQNxbQ8wfWQz-Qod86wn9DO9pQPIWTcE) Chapter 4: Reading and writing about other people's research
 * [*Field Guide to Graduate School*](https://press.princeton.edu/books/paperback/9780691201092/a-field-guide-to-grad-school?srsltid=AfmBOooNXYYd-0yyIIr7Mz0qAQNxbQ8wfWQz-Qod86wn9DO9pQPIWTcE) Chapter 5: Staying on track in your program
 * [Google Scholar search tips](https://scholar.google.com/intl/en/scholar/help.html)
-
-**In-class activity:** 
-
-* [Powerpoint file](docs/lectures/week_01/lec_01_class_overview.html)
+* [Mentoring practices that promote graduate student success](https://doi.org/10.1371/journal.pone.0305367)
+* Use your uw.edu identity to register on the [National Center for Faculty Development and Diversity website](https://members.ncfdd.org/dashboard) (UW has an institutional membership, so you can register for free)
 
 **Required videos:** 
 
-[INSERT VIDEOS HERE]
+* [NCFDD Skill #1: Every semester needs a plan](https://members.ncfdd.org/webinars/semesterplan25fall)
+* [NCFDD Skill #2: How to align your time with your priorities](https://members.ncfdd.org/webinars/25weeklymeet)
+* [NCFDD Skill #3: How to develop a daily writing practice](https://members.ncfdd.org/webinars/dailywriting25)
+* [NCFDD Skill #4: Mastering academic time management](https://members.ncfdd.org/webinars/masteringtime25)
+* [NCFDD Skill #7: Cultivating your network of mentors, sponsors, and collaborators](https://members.ncfdd.org/webinars/cultivatingyournetwork25)
+
+**In-class activities:** 
+
+* [In-class presentation](docs/lectures/week_01/lec_01_class_overview.html)
+* Developing a time management system that works for you
+* Creating your mentoring map
+* Developing your literature search strategies
+* Subscribing to journal table of contents alerts
+* Choosing and setting up a reference management system
+* Brainstorm: what else do you want to learn this quarter?
 
 <br>
 
@@ -78,23 +91,27 @@ If you are a FISH 521 student, this website will be your resource for all course
 * [Message box](https://wood-lab.github.io/fish_521/references/message_box.pdf)
 * [How to write a *Nature* abstract](https://wood-lab.github.io/fish_521/references/nature_summary_paragraph.pdf)
 
+**Required videos:** 
+
+* [NCFDD Skill #5: Moving from resistance to writing](https://members.ncfdd.org/webinars/resistancetowriting25)
+* [COMPASS: Crafing a communication plan](https://www.youtube.com/watch?v=Bn-axDQQhds)
+
 **In-class activity:** 
 
 * [Powerpoint file](docs/lectures/week_01/lec_01_class_overview.html)
-
-**Required videos:** 
-
-[INSERT VIDEOS HERE]
+* Craft your message using a message box
+* Writing an abstract
 
 <br>
+
 
 ## Class 3
 
 **Topics to be covered:**
 
+* Manuscript structure
 * Manuscript life cycles
 * Authorship and contributions
-* Manuscript structure
 
 **Required readings:** 
 
@@ -102,15 +119,18 @@ If you are a FISH 521 student, this website will be your resource for all course
 * [Guidelines for authorship in the field of ecology](https://wood-lab.github.io/fish_521/references/Weltzin_ecology_authorship.pdf)
 * [Avoiding and overcoming authorship conflicts](https://wood-lab.github.io/fish_521/references/Cooke_10_rules_authorship.pdf)
 
+**Required videos:** 
+
+* [How to write a scientific paper from start to finish](https://www.youtube.com/watch?v=udJ3AnS2veU)
+* Video on manuscript life cycle
+* Video on authorship
+
 **In-class activity:** 
 
 * [Powerpoint file](docs/lectures/week_01/lec_01_class_overview.html)
 
-**Required videos:** 
-
-[INSERT VIDEOS HERE]
-
 <br>
+
 
 ## Class 4
 
@@ -129,15 +149,19 @@ If you are a FISH 521 student, this website will be your resource for all course
 * [BES guide to reproducible code](https://wood-lab.github.io/fish_521/references/BES_guide_to_reproducible_code.pdf)
 * [Packaging data analytical work reproducibly using R](https://wood-lab.github.io/fish_521/references/Marwick_etal_2018_research_compendia.pdf)
 
+**Required videos:** 
+
+* Video on how to choose a journal
+* Video on how to write a cover letter
+* Video on what goes in supplementary material
+* Video on reproducibility
+
 **In-class activity:** 
 
 * [Powerpoint file](docs/lectures/week_01/lec_01_class_overview.html)
 
-**Required videos:** 
-
-[INSERT VIDEOS HERE]
-
 <br>
+
 
 ## Class 5
 
@@ -153,16 +177,21 @@ If you are a FISH 521 student, this website will be your resource for all course
 * [Unprofessional peer reviews](https://wood-lab.github.io/fish_521/references/Silbiger_2019_peer_review_urm.pdf)
 * [Overly harsh peer reviews](https://wood-lab.github.io/fish_521/references/Clements_2020_prig_peer_review.pdf)
 * [Quantifying professionalism in peer reviews](https://wood-lab.github.io/fish_521/references/Gerwing_2020_prof_peer_review.pdf)
+* Proposal #1
+* Proposal #2
+
+**Required videos:** 
+
+* [How to critically evaluate a research paper](https://www.youtube.com/watch?v=64DHO3hAeSM)
+* [How to deal with manuscript rejections](https://www.youtube.com/watch?v=ZpZNTEHVmdw)
 
 **In-class activity:** 
 
 * [Powerpoint file](docs/lectures/week_01/lec_01_class_overview.html)
-
-**Required videos:** 
-
-[INSERT VIDEOS HERE]
+* Mock NSF review panel
 
 <br>
+
 
 ## Class 6
 
@@ -179,37 +208,43 @@ If you are a FISH 521 student, this website will be your resource for all course
 * [Creating a free website via Markdown](https://wood-lab.github.io/fish_521/lectures/week_07/lec_06b_websites.html)
 * [Online outreach](https://wood-lab.github.io/fish_521/references/Bik_2015_ten_simple_rules.pdf)
 
+**Required videos:** 
+
+* [Giving an effective scientific presentation](https://www.youtube.com/watch?v=Hp7Id3Yb9XQ)
+* [Personal websites for scientists](https://www.youtube.com/watch?v=3g-bNajtxZE)
 
 **In-class activity:** 
 
 * [Powerpoint file](docs/lectures/week_01/lec_01_class_overview.html)
 
-**Required videos:** 
-
-[INSERT VIDEOS HERE]
-
 <br>
+  
 
 ## Class 7
 
 **Topics to be covered:**
 
 * Your practice proposal presentations!
+* How to secure letters of recommendation and ensure that they are spectacular
 * How to do it all without overdoing it
 
 **Required readings:** 
 
 * [*Field Guide to Graduate School*](https://press.princeton.edu/books/paperback/9780691201092/a-field-guide-to-grad-school?srsltid=AfmBOooNXYYd-0yyIIr7Mz0qAQNxbQ8wfWQz-Qod86wn9DO9pQPIWTcE) Chapter 12: Balancing teaching, research, service, and life
 
+**Required videos:** 
+
+* [NCFDD Skill #6: The art of saying no](https://members.ncfdd.org/webinars/artofno25)
+* [NCFDD Skill #8: Overcoming academic perfectionism](https://members.ncfdd.org/webinars/academicperf25)
+* [NCFDD Skill #10: How to manage stress, rejection, and haters in your midst](https://members.ncfdd.org/webinars/rejection25)
+* video from Chelsea on letters of rec
+
 **In-class activity:** 
 
 * [Powerpoint file](docs/lectures/week_01/lec_01_class_overview.html)
 
-**Required videos:** 
-
-[INSERT VIDEOS HERE]
-
 <br>
+
 
 ## Class 8
 
@@ -221,14 +256,16 @@ If you are a FISH 521 student, this website will be your resource for all course
 
 * None!
 
+**Required videos:** 
+
+* None!
+
 **In-class activity:** 
 
 * [Powerpoint file](docs/lectures/week_01/lec_01_class_overview.html)
-
-**Required videos:** 
-
-[INSERT VIDEOS HERE]
+* Your final proposal presentations!
 
 <br>
+
 
 <center>*This site was last updated at `r format(Sys.time(), "%H:%M")` on `r format(Sys.Date(), "%d %b %Y")`*</center>
