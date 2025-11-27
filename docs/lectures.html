@@ -29,6 +29,9 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -221,6 +224,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -228,6 +294,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -284,23 +360,309 @@ $(document).ready(function () {
 
 
 <p><br></p>
-<div id="navigating-a-slide-deck" class="section level4">
-<h4>Navigating a slide deck</h4>
+<div id="section" class="section level1">
+<h1></h1>
+<p>This course is taught in an active-learning format, which means that
+students are responsible for reading or watching all of the materials
+below <strong>before</strong> the corresponding class. In active
+learning courses, students are involved in discussion, writing,
+problem-solving, and higher-order thinking during class time. The active
+learning activities that are planned for each class are shown below.</p>
+<p><strong>Make sure to read, watch, or listen to all content on each
+tab before the corresponding class!</strong></p>
+<p>If you are a FISH 521 student, this website will be your resource for
+all course content, but we will use Canvas for announcements, submitting
+assignments, and keeping track of grades.</p>
+<p><br></p>
+<p><strong>Navigating a slide deck</strong></p>
 <ul>
-<li><p>Use the arrow keys (←/→) on your keyboard to go forward or
-backward</p></li>
-<li><p>Press the “o” key on any slide to show you an overview of the
-slide deck</p></li>
-<li><p>In overview mode, click on a slide or press “esc” to zoom in on
-it</p></li>
-<li><p>You can also print the slides to a pdf by selecting the “print”
-option from your browser’s File menu.</p></li>
+<li>Use the arrow keys (←/→) on your keyboard to go forward or
+backward</li>
+<li>Press the “o” key on any slide to show you an overview of the slide
+deck</li>
+<li>In overview mode, click on a slide or press “esc” to zoom in on
+it</li>
+<li>You can also print the slides to a pdf by selecting the “print”
+option from your browser’s File menu.</li>
 </ul>
 <p><br></p>
+</div>
+<div id="classes" class="section level1">
+<h1>Classes</h1>
+<div id="class-1" class="section level2">
+<h2>Class 1</h2>
+<p><strong>Topics to be covered:</strong></p>
+<ul>
+<li>Course overview</li>
+<li>Time management</li>
+<li>Building a mentorship network</li>
+<li>Writing habits</li>
+<li>Searching the literature</li>
+<li>Reference management</li>
+</ul>
+<p><strong>Required readings:</strong></p>
+<ul>
+<li><a
+href="https://press.princeton.edu/books/paperback/9780691201092/a-field-guide-to-grad-school?srsltid=AfmBOooNXYYd-0yyIIr7Mz0qAQNxbQ8wfWQz-Qod86wn9DO9pQPIWTcE"><em>Field
+Guide to Graduate School</em></a> Introduction</li>
+<li><a
+href="https://press.princeton.edu/books/paperback/9780691201092/a-field-guide-to-grad-school?srsltid=AfmBOooNXYYd-0yyIIr7Mz0qAQNxbQ8wfWQz-Qod86wn9DO9pQPIWTcE"><em>Field
+Guide to Graduate School</em></a> Chapter 2: Building your team</li>
+<li><a
+href="https://press.princeton.edu/books/paperback/9780691201092/a-field-guide-to-grad-school?srsltid=AfmBOooNXYYd-0yyIIr7Mz0qAQNxbQ8wfWQz-Qod86wn9DO9pQPIWTcE"><em>Field
+Guide to Graduate School</em></a> Chapter 3: Deciphering academic
+jargon</li>
+<li><a
+href="https://press.princeton.edu/books/paperback/9780691201092/a-field-guide-to-grad-school?srsltid=AfmBOooNXYYd-0yyIIr7Mz0qAQNxbQ8wfWQz-Qod86wn9DO9pQPIWTcE"><em>Field
+Guide to Graduate School</em></a> Chapter 4: Reading and writing about
+other people’s research</li>
+<li><a
+href="https://press.princeton.edu/books/paperback/9780691201092/a-field-guide-to-grad-school?srsltid=AfmBOooNXYYd-0yyIIr7Mz0qAQNxbQ8wfWQz-Qod86wn9DO9pQPIWTcE"><em>Field
+Guide to Graduate School</em></a> Chapter 5: Staying on track in your
+program</li>
+<li><a
+href="https://scholar.google.com/intl/en/scholar/help.html">Google
+Scholar search tips</a></li>
+</ul>
+<p><strong>In-class activity:</strong></p>
+<ul>
+<li><a
+href="docs/lectures/week_01/lec_01_class_overview.html">Powerpoint
+file</a></li>
+</ul>
+<p><strong>Required videos:</strong></p>
+<p>[INSERT VIDEOS HERE]</p>
+<p><br></p>
+</div>
+<div id="class-2" class="section level2">
+<h2>Class 2</h2>
+<p><strong>Topics to be covered:</strong></p>
+<ul>
+<li>Structuring a proposal</li>
+<li>Using a message box</li>
+<li>Writing an abstract</li>
+</ul>
+<p><strong>Required readings:</strong></p>
+<ul>
+<li><a
+href="https://press.princeton.edu/books/paperback/9780691201092/a-field-guide-to-grad-school?srsltid=AfmBOooNXYYd-0yyIIr7Mz0qAQNxbQ8wfWQz-Qod86wn9DO9pQPIWTcE"><em>Field
+Guide to Graduate School</em></a> Chapter 6: Doing research and finding
+funding</li>
+<li><a
+href="https://press.princeton.edu/books/paperback/9780691201092/a-field-guide-to-grad-school?srsltid=AfmBOooNXYYd-0yyIIr7Mz0qAQNxbQ8wfWQz-Qod86wn9DO9pQPIWTcE"><em>Field
+Guide to Graduate School</em></a> Chapter 7: Writing about your
+research</li>
+<li><a
+href="https://wood-lab.github.io/fish_521/references/proposal_recipe.jpg">Proposal
+recipe</a></li>
+<li><a
+href="https://wood-lab.github.io/fish_521/references/message_box.pdf">Message
+box</a></li>
+<li><a
+href="https://wood-lab.github.io/fish_521/references/nature_summary_paragraph.pdf">How
+to write a <em>Nature</em> abstract</a></li>
+</ul>
+<p><strong>In-class activity:</strong></p>
+<ul>
+<li><a
+href="docs/lectures/week_01/lec_01_class_overview.html">Powerpoint
+file</a></li>
+</ul>
+<p><strong>Required videos:</strong></p>
+<p>[INSERT VIDEOS HERE]</p>
+<p><br></p>
+</div>
+<div id="class-3" class="section level2">
+<h2>Class 3</h2>
+<p><strong>Topics to be covered:</strong></p>
+<ul>
+<li>Manuscript life cycles</li>
+<li>Authorship and contributions</li>
+<li>Manuscript structure</li>
+</ul>
+<p><strong>Required readings:</strong></p>
+<ul>
+<li><a
+href="https://press.princeton.edu/books/paperback/9780691201092/a-field-guide-to-grad-school?srsltid=AfmBOooNXYYd-0yyIIr7Mz0qAQNxbQ8wfWQz-Qod86wn9DO9pQPIWTcE"><em>Field
+Guide to Graduate School</em></a> Chapter 8: Publishing and promoting
+your work</li>
+<li><a
+href="https://wood-lab.github.io/fish_521/references/Weltzin_ecology_authorship.pdf">Guidelines
+for authorship in the field of ecology</a></li>
+<li><a
+href="https://wood-lab.github.io/fish_521/references/Cooke_10_rules_authorship.pdf">Avoiding
+and overcoming authorship conflicts</a></li>
+</ul>
+<p><strong>In-class activity:</strong></p>
+<ul>
+<li><a
+href="docs/lectures/week_01/lec_01_class_overview.html">Powerpoint
+file</a></li>
+</ul>
+<p><strong>Required videos:</strong></p>
+<p>[INSERT VIDEOS HERE]</p>
+<p><br></p>
+</div>
+<div id="class-4" class="section level2">
+<h2>Class 4</h2>
+<p><strong>Topics to be covered:</strong></p>
+<ul>
+<li>Choosing a journal and author guidelines</li>
+<li>Writing a cover letter</li>
+<li>Supplementary material</li>
+<li>Reproducibility</li>
+</ul>
+<p><strong>Required readings:</strong></p>
+<ul>
+<li><a
+href="https://wood-lab.github.io/fish_521/references/cover_letter_template.pdf">How
+to write a cover letter</a></li>
+<li><a
+href="https://wood-lab.github.io/fish_521/references/Oviedo-Garcia_2021.pdf">How
+to recognize a predatory journal</a></li>
+<li><a href="https://beallslist.net">Bookmark this list of predatory
+journals</a></li>
+<li><a
+href="https://wood-lab.github.io/fish_521/references/BES_guide_to_reproducible_code.pdf">BES
+guide to reproducible code</a></li>
+<li><a
+href="https://wood-lab.github.io/fish_521/references/Marwick_etal_2018_research_compendia.pdf">Packaging
+data analytical work reproducibly using R</a></li>
+</ul>
+<p><strong>In-class activity:</strong></p>
+<ul>
+<li><a
+href="docs/lectures/week_01/lec_01_class_overview.html">Powerpoint
+file</a></li>
+</ul>
+<p><strong>Required videos:</strong></p>
+<p>[INSERT VIDEOS HERE]</p>
+<p><br></p>
+</div>
+<div id="class-5" class="section level2">
+<h2>Class 5</h2>
+<p><strong>Topics to be covered:</strong></p>
+<ul>
+<li>Reviewing a manuscript or proposal</li>
+<li>Response to reviewers</li>
+</ul>
+<p><strong>Required readings:</strong></p>
+<ul>
+<li><a
+href="https://wood-lab.github.io/fish_521/references/BES_guide_to_peer_review.pdf">BES
+guide to peer review</a></li>
+<li><a
+href="https://wood-lab.github.io/fish_521/references/taylor_francis_reviewer_guide.pdf">Taylor
+&amp; Francis guide to peer review</a></li>
+<li><a
+href="https://wood-lab.github.io/fish_521/references/Silbiger_2019_peer_review_urm.pdf">Unprofessional
+peer reviews</a></li>
+<li><a
+href="https://wood-lab.github.io/fish_521/references/Clements_2020_prig_peer_review.pdf">Overly
+harsh peer reviews</a></li>
+<li><a
+href="https://wood-lab.github.io/fish_521/references/Gerwing_2020_prof_peer_review.pdf">Quantifying
+professionalism in peer reviews</a></li>
+</ul>
+<p><strong>In-class activity:</strong></p>
+<ul>
+<li><a
+href="docs/lectures/week_01/lec_01_class_overview.html">Powerpoint
+file</a></li>
+</ul>
+<p><strong>Required videos:</strong></p>
+<p>[INSERT VIDEOS HERE]</p>
+<p><br></p>
+</div>
+<div id="class-6" class="section level2">
+<h2>Class 6</h2>
+<p><strong>Topics to be covered:</strong></p>
+<ul>
+<li>Scientific presentations</li>
+<li>Web presence</li>
+</ul>
+<p><strong>Required readings:</strong></p>
+<ul>
+<li><a
+href="https://press.princeton.edu/books/paperback/9780691201092/a-field-guide-to-grad-school?srsltid=AfmBOooNXYYd-0yyIIr7Mz0qAQNxbQ8wfWQz-Qod86wn9DO9pQPIWTcE"><em>Field
+Guide to Graduate School</em></a> Chapter 9: Talking about your
+research</li>
+<li><a
+href="https://press.princeton.edu/books/paperback/9780691201092/a-field-guide-to-grad-school?srsltid=AfmBOooNXYYd-0yyIIr7Mz0qAQNxbQ8wfWQz-Qod86wn9DO9pQPIWTcE"><em>Field
+Guide to Graduate School</em></a> Chapter 10: Going to conferences</li>
+<li><a
+href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">Install
+Git</a></li>
+<li><a
+href="https://wood-lab.github.io/fish_521/lectures/week_07/lec_06b_websites.html">Creating
+a free website via Markdown</a></li>
+<li><a
+href="https://wood-lab.github.io/fish_521/references/Bik_2015_ten_simple_rules.pdf">Online
+outreach</a></li>
+</ul>
+<p><strong>In-class activity:</strong></p>
+<ul>
+<li><a
+href="docs/lectures/week_01/lec_01_class_overview.html">Powerpoint
+file</a></li>
+</ul>
+<p><strong>Required videos:</strong></p>
+<p>[INSERT VIDEOS HERE]</p>
+<p><br></p>
+</div>
+<div id="class-7" class="section level2">
+<h2>Class 7</h2>
+<p><strong>Topics to be covered:</strong></p>
+<ul>
+<li>Your practice proposal presentations!</li>
+<li>How to do it all without overdoing it</li>
+</ul>
+<p><strong>Required readings:</strong></p>
+<ul>
+<li><a
+href="https://press.princeton.edu/books/paperback/9780691201092/a-field-guide-to-grad-school?srsltid=AfmBOooNXYYd-0yyIIr7Mz0qAQNxbQ8wfWQz-Qod86wn9DO9pQPIWTcE"><em>Field
+Guide to Graduate School</em></a> Chapter 12: Balancing teaching,
+research, service, and life</li>
+</ul>
+<p><strong>In-class activity:</strong></p>
+<ul>
+<li><a
+href="docs/lectures/week_01/lec_01_class_overview.html">Powerpoint
+file</a></li>
+</ul>
+<p><strong>Required videos:</strong></p>
+<p>[INSERT VIDEOS HERE]</p>
+<p><br></p>
+</div>
+<div id="class-8" class="section level2">
+<h2>Class 8</h2>
+<p><strong>Topics to be covered:</strong></p>
+<ul>
+<li>Your final proposal presentations!</li>
+</ul>
+<p><strong>Required readings:</strong></p>
+<ul>
+<li>None!</li>
+</ul>
+<p><strong>In-class activity:</strong></p>
+<ul>
+<li><a
+href="docs/lectures/week_01/lec_01_class_overview.html">Powerpoint
+file</a></li>
+</ul>
+<p><strong>Required videos:</strong></p>
+<p>[INSERT VIDEOS HERE]</p>
+<p><br></p>
+<center>
+<em>This site was last updated at 10:27 on 27 Nov 2025</em>
+</center>
+</div>
 </div>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -333,6 +695,35 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3,h4",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

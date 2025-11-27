@@ -1,19 +1,234 @@
 ---
 title: "Course content"
-output: html_document
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 4
 ---
 
 <br>
 
-#### Navigating a slide deck
+#
+
+This course is taught in an active-learning format, which means that students are responsible for reading or watching all of the materials below **before** the corresponding class. In active learning courses, students are involved in
+discussion, writing, problem-solving, and higher-order thinking during class time. The active learning activities that are planned for each class are shown below.
+
+**Make sure to read, watch, or listen to all content on each tab before the corresponding class!**
+
+If you are a FISH 521 student, this website will be your resource for all course content, but we will use Canvas for announcements, submitting assignments, and keeping track of grades.
+
+<br>
+
+**Navigating a slide deck**
 
 * Use the arrow keys (&#8592;/&#8594;) on your keyboard to go forward or backward
-
 * Press the "o" key on any slide to show you an overview of the slide deck
-
 * In overview mode, click on a slide or press "esc" to zoom in on it
-
 * You can also print the slides to a pdf by selecting the "print" option from your browser's File menu.
 
 <br>
 
+
+# Classes
+
+## Class 1
+
+**Topics to be covered:**
+
+* Course overview
+* Time management
+* Building a mentorship network
+* Writing habits
+* Searching the literature
+* Reference management
+
+**Required readings:** 
+
+* [*Field Guide to Graduate School*](https://press.princeton.edu/books/paperback/9780691201092/a-field-guide-to-grad-school?srsltid=AfmBOooNXYYd-0yyIIr7Mz0qAQNxbQ8wfWQz-Qod86wn9DO9pQPIWTcE) Introduction
+* [*Field Guide to Graduate School*](https://press.princeton.edu/books/paperback/9780691201092/a-field-guide-to-grad-school?srsltid=AfmBOooNXYYd-0yyIIr7Mz0qAQNxbQ8wfWQz-Qod86wn9DO9pQPIWTcE) Chapter 2: Building your team
+* [*Field Guide to Graduate School*](https://press.princeton.edu/books/paperback/9780691201092/a-field-guide-to-grad-school?srsltid=AfmBOooNXYYd-0yyIIr7Mz0qAQNxbQ8wfWQz-Qod86wn9DO9pQPIWTcE) Chapter 3: Deciphering academic jargon
+* [*Field Guide to Graduate School*](https://press.princeton.edu/books/paperback/9780691201092/a-field-guide-to-grad-school?srsltid=AfmBOooNXYYd-0yyIIr7Mz0qAQNxbQ8wfWQz-Qod86wn9DO9pQPIWTcE) Chapter 4: Reading and writing about other people's research
+* [*Field Guide to Graduate School*](https://press.princeton.edu/books/paperback/9780691201092/a-field-guide-to-grad-school?srsltid=AfmBOooNXYYd-0yyIIr7Mz0qAQNxbQ8wfWQz-Qod86wn9DO9pQPIWTcE) Chapter 5: Staying on track in your program
+* [Google Scholar search tips](https://scholar.google.com/intl/en/scholar/help.html)
+
+**In-class activity:** 
+
+* [Powerpoint file](docs/lectures/week_01/lec_01_class_overview.html)
+
+**Required videos:** 
+
+[INSERT VIDEOS HERE]
+
+<br>
+
+## Class 2
+
+**Topics to be covered:**
+
+* Structuring a proposal
+* Using a message box
+* Writing an abstract
+
+**Required readings:** 
+
+* [*Field Guide to Graduate School*](https://press.princeton.edu/books/paperback/9780691201092/a-field-guide-to-grad-school?srsltid=AfmBOooNXYYd-0yyIIr7Mz0qAQNxbQ8wfWQz-Qod86wn9DO9pQPIWTcE) Chapter 6: Doing research and finding funding
+* [*Field Guide to Graduate School*](https://press.princeton.edu/books/paperback/9780691201092/a-field-guide-to-grad-school?srsltid=AfmBOooNXYYd-0yyIIr7Mz0qAQNxbQ8wfWQz-Qod86wn9DO9pQPIWTcE) Chapter 7: Writing about your research
+* [Proposal recipe](https://wood-lab.github.io/fish_521/references/proposal_recipe.jpg)
+* [Message box](https://wood-lab.github.io/fish_521/references/message_box.pdf)
+* [How to write a *Nature* abstract](https://wood-lab.github.io/fish_521/references/nature_summary_paragraph.pdf)
+
+**In-class activity:** 
+
+* [Powerpoint file](docs/lectures/week_01/lec_01_class_overview.html)
+
+**Required videos:** 
+
+[INSERT VIDEOS HERE]
+
+<br>
+
+## Class 3
+
+**Topics to be covered:**
+
+* Manuscript life cycles
+* Authorship and contributions
+* Manuscript structure
+
+**Required readings:** 
+
+* [*Field Guide to Graduate School*](https://press.princeton.edu/books/paperback/9780691201092/a-field-guide-to-grad-school?srsltid=AfmBOooNXYYd-0yyIIr7Mz0qAQNxbQ8wfWQz-Qod86wn9DO9pQPIWTcE) Chapter 8: Publishing and promoting your work
+* [Guidelines for authorship in the field of ecology](https://wood-lab.github.io/fish_521/references/Weltzin_ecology_authorship.pdf)
+* [Avoiding and overcoming authorship conflicts](https://wood-lab.github.io/fish_521/references/Cooke_10_rules_authorship.pdf)
+
+**In-class activity:** 
+
+* [Powerpoint file](docs/lectures/week_01/lec_01_class_overview.html)
+
+**Required videos:** 
+
+[INSERT VIDEOS HERE]
+
+<br>
+
+## Class 4
+
+**Topics to be covered:**
+
+* Choosing a journal and author guidelines
+* Writing a cover letter
+* Supplementary material
+* Reproducibility
+
+**Required readings:** 
+
+* [How to write a cover letter](https://wood-lab.github.io/fish_521/references/cover_letter_template.pdf)
+* [How to recognize a predatory journal](https://wood-lab.github.io/fish_521/references/Oviedo-Garcia_2021.pdf)
+* [Bookmark this list of predatory journals](https://beallslist.net)
+* [BES guide to reproducible code](https://wood-lab.github.io/fish_521/references/BES_guide_to_reproducible_code.pdf)
+* [Packaging data analytical work reproducibly using R](https://wood-lab.github.io/fish_521/references/Marwick_etal_2018_research_compendia.pdf)
+
+**In-class activity:** 
+
+* [Powerpoint file](docs/lectures/week_01/lec_01_class_overview.html)
+
+**Required videos:** 
+
+[INSERT VIDEOS HERE]
+
+<br>
+
+## Class 5
+
+**Topics to be covered:**
+
+* Reviewing a manuscript or proposal
+* Response to reviewers
+
+**Required readings:** 
+
+* [BES guide to peer review](https://wood-lab.github.io/fish_521/references/BES_guide_to_peer_review.pdf)
+* [Taylor & Francis guide to peer review](https://wood-lab.github.io/fish_521/references/taylor_francis_reviewer_guide.pdf)
+* [Unprofessional peer reviews](https://wood-lab.github.io/fish_521/references/Silbiger_2019_peer_review_urm.pdf)
+* [Overly harsh peer reviews](https://wood-lab.github.io/fish_521/references/Clements_2020_prig_peer_review.pdf)
+* [Quantifying professionalism in peer reviews](https://wood-lab.github.io/fish_521/references/Gerwing_2020_prof_peer_review.pdf)
+
+**In-class activity:** 
+
+* [Powerpoint file](docs/lectures/week_01/lec_01_class_overview.html)
+
+**Required videos:** 
+
+[INSERT VIDEOS HERE]
+
+<br>
+
+## Class 6
+
+**Topics to be covered:**
+
+* Scientific presentations
+* Web presence
+
+**Required readings:** 
+
+* [*Field Guide to Graduate School*](https://press.princeton.edu/books/paperback/9780691201092/a-field-guide-to-grad-school?srsltid=AfmBOooNXYYd-0yyIIr7Mz0qAQNxbQ8wfWQz-Qod86wn9DO9pQPIWTcE) Chapter 9: Talking about your research
+* [*Field Guide to Graduate School*](https://press.princeton.edu/books/paperback/9780691201092/a-field-guide-to-grad-school?srsltid=AfmBOooNXYYd-0yyIIr7Mz0qAQNxbQ8wfWQz-Qod86wn9DO9pQPIWTcE) Chapter 10: Going to conferences
+* [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+* [Creating a free website via Markdown](https://wood-lab.github.io/fish_521/lectures/week_07/lec_06b_websites.html)
+* [Online outreach](https://wood-lab.github.io/fish_521/references/Bik_2015_ten_simple_rules.pdf)
+
+
+**In-class activity:** 
+
+* [Powerpoint file](docs/lectures/week_01/lec_01_class_overview.html)
+
+**Required videos:** 
+
+[INSERT VIDEOS HERE]
+
+<br>
+
+## Class 7
+
+**Topics to be covered:**
+
+* Your practice proposal presentations!
+* How to do it all without overdoing it
+
+**Required readings:** 
+
+* [*Field Guide to Graduate School*](https://press.princeton.edu/books/paperback/9780691201092/a-field-guide-to-grad-school?srsltid=AfmBOooNXYYd-0yyIIr7Mz0qAQNxbQ8wfWQz-Qod86wn9DO9pQPIWTcE) Chapter 12: Balancing teaching, research, service, and life
+
+**In-class activity:** 
+
+* [Powerpoint file](docs/lectures/week_01/lec_01_class_overview.html)
+
+**Required videos:** 
+
+[INSERT VIDEOS HERE]
+
+<br>
+
+## Class 8
+
+**Topics to be covered:**
+
+* Your final proposal presentations!
+
+**Required readings:** 
+
+* None!
+
+**In-class activity:** 
+
+* [Powerpoint file](docs/lectures/week_01/lec_01_class_overview.html)
+
+**Required videos:** 
+
+[INSERT VIDEOS HERE]
+
+<br>
+
+<center>*This site was last updated at `r format(Sys.time(), "%H:%M")` on `r format(Sys.Date(), "%d %b %Y")`*</center>
