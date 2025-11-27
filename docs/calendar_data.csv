@@ -1,0 +1,22 @@
+﻿calendarId,title,body,recurrenceRule,start,end,category,location,backgroundColor,color,borderColor
+1,Class 1,,NA,2026-01-05 13:30:00,2026-01-05 16:20:00,time,FISH 213,#3A9AB2,white,NA
+1,Class 2,,NA,2026-01-12 13:30:00,2026-01-12 16:20:00,time,FISH 213,#3A9AB2,white,NA
+1,CLASS CANCELLED - MLK DAY,,NA,2026-01-19 13:30:00,2026-01-19 16:20:00,time,FISH 213,#3A9AB2,white,NA
+1,Class 3,,NA,2026-01-26 13:30:00,2026-01-26 16:20:00,time,FISH 213,#3A9AB2,white,NA
+1,Class 4,,NA,2026-02-02 13:30:00,2026-02-02 16:20:00,time,FISH 213,#3A9AB2,white,NA
+1,Class 5,,NA,2026-02-09 13:30:00,2026-02-09 16:20:00,time,FISH 213,#3A9AB2,white,NA
+1,CLASS CANCELLED - PRESIDENTS' DAY,,NA,2026-02-16 13:30:00,2026-02-16 16:20:00,time,FISH 213,#3A9AB2,white,NA
+1,Class 6,,NA,2026-02-23 13:30:00,2026-02-23 16:20:00,time,FISH 213,#3A9AB2,white,NA
+1,Class 7,,NA,2026-03-02 13:30:00,2026-03-02 16:20:00,time,FISH 213,#3A9AB2,white,NA
+1,Class 8,,NA,2026-03-09 13:30:00,2026-03-09 16:20:00,time,FISH 213,#3A9AB2,white,NA
+3,Assignment 1 due,,NA,2026-01-12 00:00:00,2026-01-12 00:00:00,allday,,#E79805,white,NA
+3,Assignment 2 due,,NA,2026-01-19 00:00:00,2026-01-19 00:00:00,allday,,#E79805,white,NA
+3,Assignment 3 due,,NA,2026-02-02 00:00:00,2026-02-02 00:00:00,allday,,#E79805,white,NA
+3,Assignment 4 due,,NA,2026-02-09 00:00:00,2026-02-09 00:00:00,allday,,#E79805,white,NA
+3,Assignment 5 due,,NA,2026-02-16 00:00:00,2026-02-16 00:00:00,allday,,#E79805,white,NA
+3,Assignment 6 due,,NA,2026-03-02 00:00:00,2026-03-02 00:00:00,allday,,#E79805,white,NA
+3,Assignment 7 due,,NA,2026-03-09 00:00:00,2026-03-09 00:00:00,allday,,#E79805,white,NA
+3,Assignment 8 due,,NA,2026-03-17 00:00:00,2026-03-17 00:00:00,allday,,#E79805,white,NA
+4,MLK Day,,NA,2026-01-19 00:00:00,2026-01-19 00:00:00,allday,,#F03801,white,NA
+4,President's Day,,NA,2026-02-16 00:00:00,2026-02-16 00:00:00,allday,,#F03801,white,NA
+4,Finals week,,NA,2026-03-16 00:00:00,2026-03-20 00:00:00,allday,,#F03801,white,NA

@@ -1,5 +1,5 @@
 ---
-title: "Reference materials"
+title: "Resources"
 output: html_document
 ---
 

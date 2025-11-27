@@ -1,0 +1,29 @@
+---
+title: "Schedule"
+output: html_document
+---
+  
+```{r generate_calendar, eval = TRUE, echo=FALSE}
+## load library
+library(toastui)
+
+## data frame with dates & topics
+cal_data<-read.csv("calendar_data.csv")
+
+## display calendar
+calendar(cal_data, navigation = TRUE, defaultDate = Sys.Date()) %>%
+  cal_month_options(
+    startDayOfWeek  = 0, 
+    workweek = TRUE
+  )
+
+# This dummy dataset shows you how things need to be formatted in order to produce a sensible calendar:
+# cal_demo_data()
+# The dumb thing is, if you open the csv in Excel, it'll automatically format the dates in a way that calendar() 
+# does not recognize. It needs to be formatted as yyyy-mm-dd hh:mm:ss. If the calendar isn't working, that's probably the # problem. Reformat the dates properly, save it again, and it should be fine.
+
+```
+
+<br>
+</br>
+<center>*This site was last updated at `r format(Sys.time(), "%H:%M")` on `r format(Sys.Date(), "%d %b %Y")`*</center>

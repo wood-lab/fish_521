@@ -4,11 +4,13 @@ navbar:
   right:
     - text: "Syllabus"
       href: syllabus.html
-    - text: "Schedule & materials"
+    - text: "Schedule"
+      href: schedule.html
+    - text: "Course content"
       href: lectures.html
     - text: "Homework"
       href: homework.html
-    - text: "References"
+    - text: "Resources"
       href: references.html
     - text: ""
       icon: fab fa-github

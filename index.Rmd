@@ -1,6 +1,6 @@
 ---
 title: "Research Proposal Writing and Professional Development for Graduate Students"
-subtitle: "FISH 521 &nbsp; &nbsp; University of Washington &nbsp; &nbsp; Winter 2025"
+subtitle: "FISH 521 &nbsp; &nbsp; University of Washington &nbsp; &nbsp; Winter 2026"
 output: html_document
 ---
 
@@ -29,7 +29,7 @@ h3 {
 
 <br>
 
-<center>&copy; Mark Scheuerell 2024, updated by Chelsea Wood 2025</center>
+<center>&copy; Mark Scheuerell 2024, updated by Chelsea Wood 2026</center>
 
 <br>
 
