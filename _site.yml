@@ -8,7 +8,7 @@ navbar:
       href: schedule.html
     - text: "Course content"
       href: lectures.html
-    - text: "Homework"
+    - text: "Assignments"
       href: homework.html
     - text: "Resources"
       href: references.html

@@ -1,153 +1,332 @@
 ---
-title: "Homework"
-output: html_document
+title: "Assignments"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 4
 ---
 
-```{r child = "_timeline.Rmd", include=FALSE}
-```
+<br>
 
-```{r child = "_list_of_hw.Rmd", include=FALSE}
-```
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-library(magrittr)
-library(kableExtra)
-```
+# Grading
 
-All homework assignments should be submitted via Canvas.
+## Grading breakdown
 
-```{r week_hw, include = FALSE}
-## empty list for labs
-week_hw <- vector("list", 9)
-names(week_hw) <- paste0("L", seq(9))
-## hw topics
-week_hw$L1 <- focal_paper
-week_hw$L2 <- message_box
-week_hw$L3 <- holiday_1
-week_hw$L4 <- proposal_draft
-week_hw$L5 <- cover_letter
-week_hw$L6 <- review_draft
-week_hw$L7 <- holiday_2
-week_hw$L8 <- presentation
-week_hw$L9 <- proposal_final
-# week_hw$L10
-```
+| Assignment number | Proportion of your final grade |
+| :------- | -------: |
+| Assignment 1 | 5% |
+| Assignment 2 | 5% |
+| Assignment 3 | 15% |
+| Assignment 4 | 10% |
+| Assignment 5 | 20% |
+| Assignment 6 | 20% |
+| Assignment 7 | 0% (but assignment must be completed for a passing grade) |
+| Assignment 8 | 25% |
 
-```{r topics, include = FALSE}
-topics <- lapply(week_hw, function(x) { if(is.list(x)) {c(x$topics)} else {""} })
-## topics formatted for html
-topics_html <- sapply(lapply(topics, paste, "<br>", collapse = ""), c)
-names(topics_html) <- NULL
-```
+<br>
 
-```{r assignment_links, include = FALSE}
-assignment_links <- lapply(week_hw, function(x) { if(is.list(x)) {c(x$html)} else {""} })
-assignment_links_html <- sapply(lapply(assignment_links, function(x) {
-  if(length(x)>1) {
-    tmp1 <- paste0("[",
-                   as.character(fontawesome::fa("file-alt", height = "2em", fill = "#2fa4e7")),
-                   " (", 1:length(x), ")](")
-    } else {
-      tmp1 <- paste0("[",
-                     as.character(fontawesome::fa("file-alt", height = "2em", fill = "#2fa4e7")),
-                     "](")
-      }
-  tmp2 <- ")"
-  tmp <- paste0(tmp1, x, tmp2)
-  tmp[x==""] <- ""
-  tmp <- paste(tmp, collapse="<br>"); tmp}), c)
-```
+## Posting of grades
 
-```{r template_links, include = FALSE}
-template_links <- lapply(week_hw, function(x) { if(is.list(x)) {c(x$rmd)} else {""} })
-template_links_html <- sapply(lapply(template_links, function(x) {
-  if(length(x)>1) {
-    tmp1 <- paste0("[",
-                   as.character(fontawesome::fa("file-code", height = "2em", fill = "#2fa4e7")),
-                   " (", 1:length(x), ")](")
-    } else {
-      tmp1 <- paste0("[",
-                     as.character(fontawesome::fa("file-code", height = "2em", fill = "#2fa4e7")),
-                     "](")
-      }
-  tmp2 <- ")"
-  tmp <- paste0(tmp1, x, tmp2)
-  tmp[x==""] <- ""
-  tmp <- paste(tmp, collapse="<br>"); tmp}), c)
-```
+You will be able to access your grades via Canvas. All graded material will be returned promptly - no more than 7 days after submission date.
 
-```{r data_links, include = FALSE}
-data_links <- lapply(week_hw, function(x) { if(is.list(x)) {x$data} else {""} })
-data_links_html <- sapply(lapply(data_links, function(x) {
-  if(length(x)>1) {
-    tmp1 <- paste0("[",
-                   as.character(fontawesome::fa("table", height = "2em", fill = "#2fa4e7")),
-                   " (", 1:length(x), ")](")
-    } else {
-      tmp1 <- paste0("[",
-                     as.character(fontawesome::fa("table", height = "2em", fill = "#2fa4e7")),
-                     "](")
-      }
-  tmp2 <- ")"
-  tmp <- paste0(tmp1, x, tmp2)
-  tmp[x==""] <- ""
-  tmp <- paste(tmp, collapse="<br>"); tmp}), c)
-```
 
-```{r key_links, include = FALSE}
-key_links <- lapply(week_hw, function(x) { if(is.list(x)) {c(x$key)} else {""} })
-key_links_html <- sapply(lapply(key_links, function(x) {
-  if(length(x)>1) {
-    tmp1 <- paste0("[",
-                   as.character(fontawesome::fa("key", height = "2em", fill = "#2fa4e7")),
-                   " (", 1:length(x), ")](")
-    } else {
-      tmp1 <- paste0("[",
-                     as.character(fontawesome::fa("key", height = "2em", fill = "#2fa4e7")),
-                     "](")
-      }
-  tmp2 <- ")"
-  tmp <- paste(tmp1, x, tmp2)
-  tmp[x==""] <- ""
-  tmp <- paste(tmp, collapse = " ")
-  tmp}), c)
-names(key_links_html) <- NULL
-```
+<br>
 
-```{r percents, include = FALSE}
-percents <- lapply(week_hw, function(x) { if(is.list(x)) {c(x$percent)} else {""} })
-## due dates formatted for html
-percents_html <- sapply(lapply(percents, paste, "<br>", collapse = ""), c)
-names(percents_html) <- NULL
-```
+## Policy on late assignments
 
-```{r generate_table, echo=FALSE}
-## due dates
-due_date <- sub("0(\\d)", "\\1", format(mon[1:9] + 7, "%d %b"))
-due_date[c(3,7)] <- " "
-due_date[9] <- "17 Mar"
-## data frame with dates & topics
-syl_txt <- data.frame(
-  assign_date = qtr,
-  topics = topics_html,
-  percents = percents_html,
-  assignment_links = assignment_links_html,
-  due_date = due_date
-  # template_links = template_links_html,
-  # key_links = key_links_html
-)
-colnames(syl_txt) <- c("Date", "Topic", "Grade", "Instructions", "Due")
-rownames(syl_txt) <- NULL
+**Late assignments are not accepted and will receive a grade of 0%.** However, if you anticipate being unable to meet an assignment deadline, please shoot Chelsea an e-mail or speak to her **before the deadline**, as she is very happy to arrange accommodations for you in case of illness or other unexpected roadblocks.
 
-## generate table
-kable(syl_txt, format = "html", caption = " ",
-      align = "clccc", escape = FALSE) %>%
-  kable_styling(bootstrap_options = "striped",
-                full_width = FALSE,
-                position = "left") %>%
-  column_spec(1, width = "7em") %>%
-  column_spec(2, width = "18em") %>%
-  column_spec(c(3, 4, 5), width = "8em")
-```
+<br>
 
+## Grading scale
+
+Note that there will be no curve.
+
+| Letter | Percent | GPA | Notes |
+| :------- | :------: | -------: | -------: |
+| A | ≥ 95 | 4.0 | |
+| A | 94 | 3.9 | |
+| A- | 93 | 3.8 |  |
+| A- | 92 | 3.7 |  |
+| A- | 91 | 3.6 |  |
+| A- | 90 | 3.5 |  |
+| B+ | 89 | 3.4 |  |
+| B+ | 88 | 3.3 |  |
+| B+ | 87 | 3.2 |  |
+| B | 86 | 3.1 |  |
+| B | 85 | 3.0 |  |
+| B | 84 | 2.9 |  |
+| B- | 83 | 2.8 |  |
+| B- | 82 | 2.7 |  |
+| B- | 81 | 2.6 |  |
+| B- | 80 | 2.5 |  |
+| C+ | 79 | 2.4 |  |
+| C+ | 78 | 2.3 |  |
+| C+ | 77 | 2.2 |  |
+| C | 76 | 2.1 |  |
+| C | 75 | 2.0 |  |
+| C | 74 | 1.9 |  |
+| C- | 73 | 1.8 |  |
+| C- | 72 | 1.7 |  |
+| C- | 71 | 1.6 |  |
+| C- | 70 | 1.5 |  |
+| D+ | 69 | 1.4 |  |
+| D+ | 68 | 1.3 |  |
+| D+ | 67 | 1.2 |  |
+| D | 66 | 1.1 |  |
+| D | 65 | 1.0 |  |
+| D | 64 | 0.9 |  |
+| D- | 63 | 0.8 |  |
+| D- | 62 | 0.7 | lowest passing grade |
+| E | < 62 | 0.0 | academic failure, no credit earned  |
+
+<br>
+
+# Assignments
+
+## Assignment 1
+
+### Finding an interesting paper
+
+**Task 1**
+Use some form of database search engine (or word of mouth) to find a scientific (focal) paper of interest that was published in 2019 or earlier. Provide the complete citation for the paper.
+
+**Task 2**
+Write down 3 things you like about the paper and 3 things you would have done differently (e.g., less technical language, writing style, layout/organization, use of tables and figures, design of tables or figures).
+
+**Task 3**
+Provide the citations for 5 papers that your focal paper cited that you are interested in reading and learning more about.
+
+**Task 4**
+Provide the citations for 5 papers that cited your focal paper and that you are interested in reading and learning more about. (Note: if your focal paper has not yet been cited 5+ times, indicate as much and list all of those that have cited it.)
+
+<br>
+
+## Assignment 2
+
+### Using a message box
+
+**Task 1**
+Complete a message box for any issue aimed at any audience. This could be something related to your (intended) research, a hobby, an issue you’re passionate about, etc.
+
+**Task 2**
+Complete a message box with the intention of targeting a granting agency (i.e., the “audience”) for funding to support any aspect of your graduate studies. If the specifics of your project are still uncertain, feel free to address another scientific question you find interesting or important.
+
+**Submitting your assignment**
+
+You have 2 options for submitting this assignment:
+
+- print a message box, fill it out in pencil/ink, scan it or take a picture of it, and then submit it via Canvas as a pdf
+- write out each of the sections in a Word or Google doc, and then submit it via Canvas as a pdf
+
+<br>
+
+## Assignment 3
+
+### Draft proposal introduction
+
+**Background**
+Your assignment this week is to draft the introduction and rationale for a research proposal based on your area of research. As we discussed in class, this is an important part of every proposal because it sets the stage by providing background information and justification for the proposed research (i.e., “Why is this topic important?”).
+
+**Instructions**
+Write a draft consisting of at least 3 paragraphs with the following general structure:
+
+- What is the problem/question and why is it important?
+- What do we know and what is lacking in our understanding?
+- What are the 2-3 objectives and specific hypotheses/questions?
+
+Make sure to cite all relevant references and include them in a section labeled “References”. If you are so inclined, and you think it would help communicate the ideas in your proposal, feel free to also include a figure or schematic (this is not required, though).
+
+**Submission**
+When you are finished, submit via Canvas as a Word document or provide a link to a Google document, such that Chelsea will be able to provide comments directly on the draft itself.
+
+<br>
+
+## Assignment 4 
+
+### Writing a cover letter
+
+**Instructions**
+Write a cover letter for a submission to a journal using the template below. Base your letter upon the paper you chose for Assignment 1, as though it were your own original manuscript. Alternatively, you may choose to base your letter upon a paper you are currently getting ready to submit.
+
+**Submission**
+When you are finished, submit a Word document or Google Docs link to Canvas, such that Chelsea will be able to provide comments directly on the draft itself.
+
+Letter template
+[Editor’s First and Last Name], [Graduate Degree]
+[Editor’s title]
+[Journal Name]
+[Journal Address]
+[Submission Date: Month Day, Year]
+
+Dear Dr. [Editor’s last name]:
+
+[Paragraph 1: 2–3 sentences] Begin with a sentence that mentions the paper’s title and the journal to which you are submitting. Then include 1-2 sentences that summarize the study design, your research question, your major findings, and the conclusion.
+
+[Paragraph 2: 2–5 sentences] Describe the context that prompted your research and state why the paper will appeal to the journal’s readership. Include information that connects your submission to aspects of the journal’s Aim and Scope. Here are some tips:
+
+- Identify the journal audience and how they can use your research to expand their understanding of the topic
+- Include context about why this research question had to be addressed
+- Mention if the paper was prompted by prior research
+
+[Paragraph 3: 2-3 sentences] Briefly describe how the submission relates to prior works (especially any published previously by the same journal).
+
+[Paragraph 4: 1-3 sentence] Disclose whether or not any of the information in the paper has been published or presented elsewhere.
+
+[Paragraph 5: 1 sentence] Provide the names and justification for 3 potential reviewers. Take these from the authors of the previous papers you identified in HW #1.
+
+- [Name, institution, email, expertise]
+- [Name, institution, email, expertise]
+- [Name, institution, email, expertise]
+
+[Paragraph 6: 1 sentence] Claim any conflicts of interest or explicitly declare that there are none.
+
+Sincerely,
+
+[Your Name]
+
+Corresponding Author
+[Institution Title]
+[Institution/Affiliation Name]
+[Institution Address]
+[Your e-mail address]
+[Tel: (include relevant country/area code)]
+
+<br>
+
+## Assignment 5
+
+### Reviewing a manuscript
+
+**Instructions**
+Write a peer review of the preprint article by Purgar et al. titled Identify, quantify, act: Tackling the unused potential of ecological research, which has been posted to the EcoEvoRxiv Preprint server and you can download here. This paper is written in more of an essay format, but it is general enough that everyone in class should be able to read, understand, and comment on it.
+
+Your review should follow the template provided below.
+
+**Submission**
+When you are finished, submit a Word document or a link to a Google doc via Canvas, such that Chelsea will be able to provide comments directly on the draft itself
+
+**Review template**
+
+
+Comments to the editor (These are confidential and will not be seen by the authors.)
+
+This is an opportunity to place your comments or major concerns into context. This section should be brief (1 paragraph).
+
+
+General comments (These comments go directly to the authors.)
+
+I typically begin this section with a one paragraph summary of what I thought the paper was about and then I highlight major findings/conclusions.
+
+I then write 1-4 paragraphs that synthesize the most critical aspects of the quality of the science (either positive or negative) that you think should influence the manuscript decision. I also add big-picture suggestions for improving the manuscript, such as
+
+- *Scientific quality:* soundness of results and analysis, novelty, support of conclusions, and cohesiveness of argument
+- *Writing and presentation:* organization and flow of manuscript, writing style, quality of figures and tables, clarity in message, length relative to information content
+
+
+Specific comments (These comments go directly to the authors.)
+
+These are meant to highlight specific issues/problems you have with background, analyses, interpretation, etc. I prefer to reference these by page/line number, if/when possible. For example,
+
+L111: Please clarify what you mean by blah.
+
+L222: Here you mention X samples, but on line 200 you said it was Y samples. Which statement is correct?
+
+L333: There is a citation here for Smith (2020), but that reference does not appear in the literature cited section.
+
+<br>
+
+## Assignment 6
+
+### Practice proposal presentation
+
+**Background**
+Your assignment this week is to give a **practice version** your proposal presentation in class. Your presentation should cover the following elements:
+
+- Background and rationale for your proposed research
+- Questions of interest (or hypotheses to test)
+- Methods/approach
+- Anticipated results
+- Implications (intellectual merit)
+
+**Evaluation rubric**
+This version of the presentation will not be graded (although you must complete it to pass the class). Instead, this week you will receive feedback from Chelsea and your classmates to improve the presentation. You will be graded on the final version of the presentation, which will be given next week. The quality of your presentation will be evaluated based on the following criteria:
+
+- Title slide with name, affiliation, and contact info
+- Acknowledgment of collaborators and funders
+- Layout/design of the slides (e.g., good color contrast, appropriate font size)
+- Speaking clearly and addressing the audience rather than the computer or slides
+- Presenting the background and clear rationale for the study
+- Brief explanation of the methods or approach
+- Highlighting expected results and any potential difficulties
+- Brief comment(s) on the implications of the research
+- Appropriate ending
+
+**Presentation upload**
+Please note that due to our tight time frame in class, you are required to upload your presentation ahead of class time (see Canvas). Also note that presentations will only be accepted in either presentation (.ppt, .pptx) or PDF (.pdf) formats. If you use an .html format (eg, ioslides, Xaringan), you will need to print your slide deck to a .pdf format using your browser’s print function.
+
+<br>
+
+## Assignment 7 
+
+### Formal proposal presentation
+
+**Background**
+Your assignment this week is to give a **formal version** your proposal presentation in class, for a grade. Your presentation should cover the following elements:
+
+- Background and rationale for your proposed research
+- Questions of interest (or hypotheses to test)
+- Methods/approach
+- Anticipated results
+- Implications (intellectual merit)
+
+**Evaluation rubric**
+This version of the presentation **will** be graded. The quality of your presentation will be evaluated based on the following criteria:
+
+- Title slide with name, affiliation, and contact info
+- Acknowledgment of collaborators and funders
+- Layout/design of the slides (e.g., good color contrast, appropriate font size)
+- Speaking clearly and addressing the audience rather than the computer or slides
+- Presenting the background and clear rationale for the study
+- Brief explanation of the methods or approach
+- Highlighting expected results and any potential difficulties
+- Brief comment(s) on the implications of the research
+- Appropriate ending
+
+**Presentation upload**
+Please note that due to our tight time frame in class, you are required to upload your presentation ahead of class time (see Canvas). Also note that presentations will only be accepted in either presentation (.ppt, .pptx) or PDF (.pdf) formats. If you use an .html format (eg, ioslides, Xaringan), you will need to print your slide deck to a .pdf format using your browser’s print function.
+
+<br>
+
+## Assignment 8 
+
+### Final proposal
+
+**Background**
+Your final assignment for the course is to complete a full draft of a research proposal, building on the introductory material you wrote for Assignment 3. Some of you do not yet have fully formed research projects, so please do the best you can at this point, just as you did with your presentation. Chelsea will be looking for well-formed ideas, rationale, and methods, as well as improvement in your writing from your first draft.
+
+**Instructions**
+Write a full draft of your research proposal with the following general structure that addresses the questions within each section. In addition, if you think it would help communicate the ideas in your proposal, feel free to also include 1-2 figures or schematics with appropriate captions (this is not required, though).
+
+**Background and rationale (2-3 paragraphs)** - What is the problem/question and why is it important? What do we know and what is lacking in our understanding?
+
+**Objectives (1 paragraph)** - What are your objectives and specific hypotheses/questions?
+
+**Approach (2-3 paragraphs)** - What materials, data, and methods will you use to address the questions?
+
+**Expectations (1-2 paragraphs)** - What do you hope/expect to learn/discover?
+
+**Intellectual merit (1-2 paragraphs)** - What are the implications of your proposed research for the larger scientific commmunity?
+
+**Broader impacts (1-2 paragraphs)** - What is the potential for the proposed activity to benefit society or advance desired societal outcomes? To what extent does your proposed research explore creative, original or potentially transformative concepts?
+
+**References** - Make sure to cite all relevant references and include them in a section labeled “References”. Format your references using some form of (Author(s) Year) or Author(s) (Year) style rather than superscripted numbers or letters.
+
+**Submission**
+When you are finished, submit via Canvas a Word document or a link to a Google Document, such that Chelsea will be able to provide comments directly on the draft itself.
+
+<br>
+
+<center>*This site was last updated at `r format(Sys.time(), "%H:%M")` on `r format(Sys.Date(), "%d %b %Y")`*</center>

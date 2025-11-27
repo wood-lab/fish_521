@@ -11,7 +11,7 @@
 
 
 
-<title>Homework</title>
+<title>Assignments</title>
 
 <script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -29,11 +29,12 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
-<link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
 
@@ -223,6 +224,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -230,6 +294,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -259,7 +333,7 @@ $(document).ready(function () {
   <a href="lectures.html">Course content</a>
 </li>
 <li>
-  <a href="homework.html">Homework</a>
+  <a href="homework.html">Assignments</a>
 </li>
 <li>
   <a href="references.html">Resources</a>
@@ -280,196 +354,622 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Homework</h1>
+<h1 class="title toc-ignore">Assignments</h1>
 
 </div>
 
 
-<p>All homework assignments should be submitted via Canvas.</p>
-<table class="table table-striped" style="width: auto !important; ">
-<caption>
-</caption>
+<p><br></p>
+<div id="grading" class="section level1">
+<h1>Grading</h1>
+<div id="grading-breakdown" class="section level2">
+<h2>Grading breakdown</h2>
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
 <thead>
-<tr>
-<th style="text-align:center;">
-Date
-</th>
-<th style="text-align:left;">
-Topic
-</th>
-<th style="text-align:center;">
-Grade
-</th>
-<th style="text-align:center;">
-Instructions
-</th>
-<th style="text-align:center;">
-Due
-</th>
+<tr class="header">
+<th align="left">Assignment number</th>
+<th align="right">Proportion of your final grade</th>
 </tr>
 </thead>
 <tbody>
-<tr>
-<td style="text-align:center;width: 7em; ">
-6 Jan
-</td>
-<td style="text-align:left;width: 18em; ">
-Finding an interesting paper <br>
-</td>
-<td style="text-align:center;width: 8em; ">
-5% <br>
-</td>
-<td style="text-align:center;width: 8em; ">
-<a
-href="homework/week_01/hw_01_references.html"><svg aria-hidden="true" role="img" viewbox="0 0 384 512" style="height:2em;width:1.5em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#2fa4e7;overflow:visible;position:relative;"><path d="M64 464c-8.8 0-16-7.2-16-16V64c0-8.8 7.2-16 16-16H224v80c0 17.7 14.3 32 32 32h80V448c0 8.8-7.2 16-16 16H64zM64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V154.5c0-17-6.7-33.3-18.7-45.3L274.7 18.7C262.7 6.7 246.5 0 229.5 0H64zm56 256c-13.3 0-24 10.7-24 24s10.7 24 24 24H264c13.3 0 24-10.7 24-24s-10.7-24-24-24H120zm0 96c-13.3 0-24 10.7-24 24s10.7 24 24 24H264c13.3 0 24-10.7 24-24s-10.7-24-24-24H120z"></path></svg></a>
-</td>
-<td style="text-align:center;width: 8em; ">
-13 Jan
-</td>
+<tr class="odd">
+<td align="left">Assignment 1</td>
+<td align="right">5%</td>
 </tr>
-<tr>
-<td style="text-align:center;width: 7em; ">
-13 Jan
-</td>
-<td style="text-align:left;width: 18em; ">
-Using a message box <br>
-</td>
-<td style="text-align:center;width: 8em; ">
-5% <br>
-</td>
-<td style="text-align:center;width: 8em; ">
-<a
-href="homework/week_02/hw_02_message_box.html"><svg aria-hidden="true" role="img" viewbox="0 0 384 512" style="height:2em;width:1.5em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#2fa4e7;overflow:visible;position:relative;"><path d="M64 464c-8.8 0-16-7.2-16-16V64c0-8.8 7.2-16 16-16H224v80c0 17.7 14.3 32 32 32h80V448c0 8.8-7.2 16-16 16H64zM64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V154.5c0-17-6.7-33.3-18.7-45.3L274.7 18.7C262.7 6.7 246.5 0 229.5 0H64zm56 256c-13.3 0-24 10.7-24 24s10.7 24 24 24H264c13.3 0 24-10.7 24-24s-10.7-24-24-24H120zm0 96c-13.3 0-24 10.7-24 24s10.7 24 24 24H264c13.3 0 24-10.7 24-24s-10.7-24-24-24H120z"></path></svg></a>
-</td>
-<td style="text-align:center;width: 8em; ">
-20 Jan
-</td>
+<tr class="even">
+<td align="left">Assignment 2</td>
+<td align="right">5%</td>
 </tr>
-<tr>
-<td style="text-align:center;width: 7em; ">
-20 Jan
-</td>
-<td style="text-align:left;width: 18em; ">
-<i>Holiday - no assignment</i> <br>
-</td>
-<td style="text-align:center;width: 8em; ">
-<br>
-</td>
-<td style="text-align:center;width: 8em; ">
-</td>
-<td style="text-align:center;width: 8em; ">
-</td>
+<tr class="odd">
+<td align="left">Assignment 3</td>
+<td align="right">15%</td>
 </tr>
-<tr>
-<td style="text-align:center;width: 7em; ">
-27 Jan
-</td>
-<td style="text-align:left;width: 18em; ">
-Draft proposal introduction <br>
-</td>
-<td style="text-align:center;width: 8em; ">
-15% <br>
-</td>
-<td style="text-align:center;width: 8em; ">
-<a
-href="homework/week_04/hw_03_proposal_intro.html"><svg aria-hidden="true" role="img" viewbox="0 0 384 512" style="height:2em;width:1.5em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#2fa4e7;overflow:visible;position:relative;"><path d="M64 464c-8.8 0-16-7.2-16-16V64c0-8.8 7.2-16 16-16H224v80c0 17.7 14.3 32 32 32h80V448c0 8.8-7.2 16-16 16H64zM64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V154.5c0-17-6.7-33.3-18.7-45.3L274.7 18.7C262.7 6.7 246.5 0 229.5 0H64zm56 256c-13.3 0-24 10.7-24 24s10.7 24 24 24H264c13.3 0 24-10.7 24-24s-10.7-24-24-24H120zm0 96c-13.3 0-24 10.7-24 24s10.7 24 24 24H264c13.3 0 24-10.7 24-24s-10.7-24-24-24H120z"></path></svg></a>
-</td>
-<td style="text-align:center;width: 8em; ">
-3 Feb
-</td>
+<tr class="even">
+<td align="left">Assignment 4</td>
+<td align="right">10%</td>
 </tr>
-<tr>
-<td style="text-align:center;width: 7em; ">
-3 Feb
-</td>
-<td style="text-align:left;width: 18em; ">
-Writing a cover letter <br>
-</td>
-<td style="text-align:center;width: 8em; ">
-10% <br>
-</td>
-<td style="text-align:center;width: 8em; ">
-<a
-href="homework/week_05/hw_04_cover_letter.html"><svg aria-hidden="true" role="img" viewbox="0 0 384 512" style="height:2em;width:1.5em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#2fa4e7;overflow:visible;position:relative;"><path d="M64 464c-8.8 0-16-7.2-16-16V64c0-8.8 7.2-16 16-16H224v80c0 17.7 14.3 32 32 32h80V448c0 8.8-7.2 16-16 16H64zM64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V154.5c0-17-6.7-33.3-18.7-45.3L274.7 18.7C262.7 6.7 246.5 0 229.5 0H64zm56 256c-13.3 0-24 10.7-24 24s10.7 24 24 24H264c13.3 0 24-10.7 24-24s-10.7-24-24-24H120zm0 96c-13.3 0-24 10.7-24 24s10.7 24 24 24H264c13.3 0 24-10.7 24-24s-10.7-24-24-24H120z"></path></svg></a>
-</td>
-<td style="text-align:center;width: 8em; ">
-10 Feb
-</td>
+<tr class="odd">
+<td align="left">Assignment 5</td>
+<td align="right">20%</td>
 </tr>
-<tr>
-<td style="text-align:center;width: 7em; ">
-10 Feb
-</td>
-<td style="text-align:left;width: 18em; ">
-Reviewing a manuscript <br>
-</td>
-<td style="text-align:center;width: 8em; ">
-20% <br>
-</td>
-<td style="text-align:center;width: 8em; ">
-<a
-href="homework/week_06/hw_05_peer_review.html"><svg aria-hidden="true" role="img" viewbox="0 0 384 512" style="height:2em;width:1.5em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#2fa4e7;overflow:visible;position:relative;"><path d="M64 464c-8.8 0-16-7.2-16-16V64c0-8.8 7.2-16 16-16H224v80c0 17.7 14.3 32 32 32h80V448c0 8.8-7.2 16-16 16H64zM64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V154.5c0-17-6.7-33.3-18.7-45.3L274.7 18.7C262.7 6.7 246.5 0 229.5 0H64zm56 256c-13.3 0-24 10.7-24 24s10.7 24 24 24H264c13.3 0 24-10.7 24-24s-10.7-24-24-24H120zm0 96c-13.3 0-24 10.7-24 24s10.7 24 24 24H264c13.3 0 24-10.7 24-24s-10.7-24-24-24H120z"></path></svg></a>
-</td>
-<td style="text-align:center;width: 8em; ">
-17 Feb
-</td>
+<tr class="even">
+<td align="left">Assignment 6</td>
+<td align="right">20%</td>
 </tr>
-<tr>
-<td style="text-align:center;width: 7em; ">
-17 Feb
-</td>
-<td style="text-align:left;width: 18em; ">
-<i>Holiday - no assignment</i> <br>
-</td>
-<td style="text-align:center;width: 8em; ">
-<br>
-</td>
-<td style="text-align:center;width: 8em; ">
-</td>
-<td style="text-align:center;width: 8em; ">
-</td>
+<tr class="odd">
+<td align="left">Assignment 7</td>
+<td align="right">0% (but assignment must be completed for a passing
+grade)</td>
 </tr>
-<tr>
-<td style="text-align:center;width: 7em; ">
-24 Feb
-</td>
-<td style="text-align:left;width: 18em; ">
-Proposal presentation <br>
-</td>
-<td style="text-align:center;width: 8em; ">
-20% <br>
-</td>
-<td style="text-align:center;width: 8em; ">
-<a
-href="homework/week_09/hw_07_presentations.html"><svg aria-hidden="true" role="img" viewbox="0 0 384 512" style="height:2em;width:1.5em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#2fa4e7;overflow:visible;position:relative;"><path d="M64 464c-8.8 0-16-7.2-16-16V64c0-8.8 7.2-16 16-16H224v80c0 17.7 14.3 32 32 32h80V448c0 8.8-7.2 16-16 16H64zM64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V154.5c0-17-6.7-33.3-18.7-45.3L274.7 18.7C262.7 6.7 246.5 0 229.5 0H64zm56 256c-13.3 0-24 10.7-24 24s10.7 24 24 24H264c13.3 0 24-10.7 24-24s-10.7-24-24-24H120zm0 96c-13.3 0-24 10.7-24 24s10.7 24 24 24H264c13.3 0 24-10.7 24-24s-10.7-24-24-24H120z"></path></svg></a>
-</td>
-<td style="text-align:center;width: 8em; ">
-3 Mar
-</td>
-</tr>
-<tr>
-<td style="text-align:center;width: 7em; ">
-3 Mar
-</td>
-<td style="text-align:left;width: 18em; ">
-Final proposal <br>
-</td>
-<td style="text-align:center;width: 8em; ">
-25% <br>
-</td>
-<td style="text-align:center;width: 8em; ">
-<a
-href="homework/week_10/hw_08_proposal.html"><svg aria-hidden="true" role="img" viewbox="0 0 384 512" style="height:2em;width:1.5em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#2fa4e7;overflow:visible;position:relative;"><path d="M64 464c-8.8 0-16-7.2-16-16V64c0-8.8 7.2-16 16-16H224v80c0 17.7 14.3 32 32 32h80V448c0 8.8-7.2 16-16 16H64zM64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V154.5c0-17-6.7-33.3-18.7-45.3L274.7 18.7C262.7 6.7 246.5 0 229.5 0H64zm56 256c-13.3 0-24 10.7-24 24s10.7 24 24 24H264c13.3 0 24-10.7 24-24s-10.7-24-24-24H120zm0 96c-13.3 0-24 10.7-24 24s10.7 24 24 24H264c13.3 0 24-10.7 24-24s-10.7-24-24-24H120z"></path></svg></a>
-</td>
-<td style="text-align:center;width: 8em; ">
-17 Mar
-</td>
+<tr class="even">
+<td align="left">Assignment 8</td>
+<td align="right">25%</td>
 </tr>
 </tbody>
 </table>
+<p><br></p>
+</div>
+<div id="posting-of-grades" class="section level2">
+<h2>Posting of grades</h2>
+<p>You will be able to access your grades via Canvas. All graded
+material will be returned promptly - no more than 7 days after
+submission date.</p>
+<p><br></p>
+</div>
+<div id="policy-on-late-assignments" class="section level2">
+<h2>Policy on late assignments</h2>
+<p><strong>Late assignments are not accepted and will receive a grade of
+0%.</strong> However, if you anticipate being unable to meet an
+assignment deadline, please shoot Chelsea an e-mail or speak to her
+<strong>before the deadline</strong>, as she is very happy to arrange
+accommodations for you in case of illness or other unexpected
+roadblocks.</p>
+<p><br></p>
+</div>
+<div id="grading-scale" class="section level2">
+<h2>Grading scale</h2>
+<p>Note that there will be no curve.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Letter</th>
+<th align="center">Percent</th>
+<th align="right">GPA</th>
+<th align="right">Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">A</td>
+<td align="center">≥ 95</td>
+<td align="right">4.0</td>
+<td align="right"></td>
+</tr>
+<tr class="even">
+<td align="left">A</td>
+<td align="center">94</td>
+<td align="right">3.9</td>
+<td align="right"></td>
+</tr>
+<tr class="odd">
+<td align="left">A-</td>
+<td align="center">93</td>
+<td align="right">3.8</td>
+<td align="right"></td>
+</tr>
+<tr class="even">
+<td align="left">A-</td>
+<td align="center">92</td>
+<td align="right">3.7</td>
+<td align="right"></td>
+</tr>
+<tr class="odd">
+<td align="left">A-</td>
+<td align="center">91</td>
+<td align="right">3.6</td>
+<td align="right"></td>
+</tr>
+<tr class="even">
+<td align="left">A-</td>
+<td align="center">90</td>
+<td align="right">3.5</td>
+<td align="right"></td>
+</tr>
+<tr class="odd">
+<td align="left">B+</td>
+<td align="center">89</td>
+<td align="right">3.4</td>
+<td align="right"></td>
+</tr>
+<tr class="even">
+<td align="left">B+</td>
+<td align="center">88</td>
+<td align="right">3.3</td>
+<td align="right"></td>
+</tr>
+<tr class="odd">
+<td align="left">B+</td>
+<td align="center">87</td>
+<td align="right">3.2</td>
+<td align="right"></td>
+</tr>
+<tr class="even">
+<td align="left">B</td>
+<td align="center">86</td>
+<td align="right">3.1</td>
+<td align="right"></td>
+</tr>
+<tr class="odd">
+<td align="left">B</td>
+<td align="center">85</td>
+<td align="right">3.0</td>
+<td align="right"></td>
+</tr>
+<tr class="even">
+<td align="left">B</td>
+<td align="center">84</td>
+<td align="right">2.9</td>
+<td align="right"></td>
+</tr>
+<tr class="odd">
+<td align="left">B-</td>
+<td align="center">83</td>
+<td align="right">2.8</td>
+<td align="right"></td>
+</tr>
+<tr class="even">
+<td align="left">B-</td>
+<td align="center">82</td>
+<td align="right">2.7</td>
+<td align="right"></td>
+</tr>
+<tr class="odd">
+<td align="left">B-</td>
+<td align="center">81</td>
+<td align="right">2.6</td>
+<td align="right"></td>
+</tr>
+<tr class="even">
+<td align="left">B-</td>
+<td align="center">80</td>
+<td align="right">2.5</td>
+<td align="right"></td>
+</tr>
+<tr class="odd">
+<td align="left">C+</td>
+<td align="center">79</td>
+<td align="right">2.4</td>
+<td align="right"></td>
+</tr>
+<tr class="even">
+<td align="left">C+</td>
+<td align="center">78</td>
+<td align="right">2.3</td>
+<td align="right"></td>
+</tr>
+<tr class="odd">
+<td align="left">C+</td>
+<td align="center">77</td>
+<td align="right">2.2</td>
+<td align="right"></td>
+</tr>
+<tr class="even">
+<td align="left">C</td>
+<td align="center">76</td>
+<td align="right">2.1</td>
+<td align="right"></td>
+</tr>
+<tr class="odd">
+<td align="left">C</td>
+<td align="center">75</td>
+<td align="right">2.0</td>
+<td align="right"></td>
+</tr>
+<tr class="even">
+<td align="left">C</td>
+<td align="center">74</td>
+<td align="right">1.9</td>
+<td align="right"></td>
+</tr>
+<tr class="odd">
+<td align="left">C-</td>
+<td align="center">73</td>
+<td align="right">1.8</td>
+<td align="right"></td>
+</tr>
+<tr class="even">
+<td align="left">C-</td>
+<td align="center">72</td>
+<td align="right">1.7</td>
+<td align="right"></td>
+</tr>
+<tr class="odd">
+<td align="left">C-</td>
+<td align="center">71</td>
+<td align="right">1.6</td>
+<td align="right"></td>
+</tr>
+<tr class="even">
+<td align="left">C-</td>
+<td align="center">70</td>
+<td align="right">1.5</td>
+<td align="right"></td>
+</tr>
+<tr class="odd">
+<td align="left">D+</td>
+<td align="center">69</td>
+<td align="right">1.4</td>
+<td align="right"></td>
+</tr>
+<tr class="even">
+<td align="left">D+</td>
+<td align="center">68</td>
+<td align="right">1.3</td>
+<td align="right"></td>
+</tr>
+<tr class="odd">
+<td align="left">D+</td>
+<td align="center">67</td>
+<td align="right">1.2</td>
+<td align="right"></td>
+</tr>
+<tr class="even">
+<td align="left">D</td>
+<td align="center">66</td>
+<td align="right">1.1</td>
+<td align="right"></td>
+</tr>
+<tr class="odd">
+<td align="left">D</td>
+<td align="center">65</td>
+<td align="right">1.0</td>
+<td align="right"></td>
+</tr>
+<tr class="even">
+<td align="left">D</td>
+<td align="center">64</td>
+<td align="right">0.9</td>
+<td align="right"></td>
+</tr>
+<tr class="odd">
+<td align="left">D-</td>
+<td align="center">63</td>
+<td align="right">0.8</td>
+<td align="right"></td>
+</tr>
+<tr class="even">
+<td align="left">D-</td>
+<td align="center">62</td>
+<td align="right">0.7</td>
+<td align="right">lowest passing grade</td>
+</tr>
+<tr class="odd">
+<td align="left">E</td>
+<td align="center">&lt; 62</td>
+<td align="right">0.0</td>
+<td align="right">academic failure, no credit earned</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+</div>
+</div>
+<div id="assignments" class="section level1">
+<h1>Assignments</h1>
+<div id="assignment-1" class="section level2">
+<h2>Assignment 1</h2>
+<div id="finding-an-interesting-paper" class="section level3">
+<h3>Finding an interesting paper</h3>
+<p><strong>Task 1</strong> Use some form of database search engine (or
+word of mouth) to find a scientific (focal) paper of interest that was
+published in 2019 or earlier. Provide the complete citation for the
+paper.</p>
+<p><strong>Task 2</strong> Write down 3 things you like about the paper
+and 3 things you would have done differently (e.g., less technical
+language, writing style, layout/organization, use of tables and figures,
+design of tables or figures).</p>
+<p><strong>Task 3</strong> Provide the citations for 5 papers that your
+focal paper cited that you are interested in reading and learning more
+about.</p>
+<p><strong>Task 4</strong> Provide the citations for 5 papers that cited
+your focal paper and that you are interested in reading and learning
+more about. (Note: if your focal paper has not yet been cited 5+ times,
+indicate as much and list all of those that have cited it.)</p>
+<p><br></p>
+</div>
+</div>
+<div id="assignment-2" class="section level2">
+<h2>Assignment 2</h2>
+<div id="using-a-message-box" class="section level3">
+<h3>Using a message box</h3>
+<p><strong>Task 1</strong> Complete a message box for any issue aimed at
+any audience. This could be something related to your (intended)
+research, a hobby, an issue you’re passionate about, etc.</p>
+<p><strong>Task 2</strong> Complete a message box with the intention of
+targeting a granting agency (i.e., the “audience”) for funding to
+support any aspect of your graduate studies. If the specifics of your
+project are still uncertain, feel free to address another scientific
+question you find interesting or important.</p>
+<p><strong>Submitting your assignment</strong></p>
+<p>You have 2 options for submitting this assignment:</p>
+<ul>
+<li>print a message box, fill it out in pencil/ink, scan it or take a
+picture of it, and then submit it via Canvas as a pdf</li>
+<li>write out each of the sections in a Word or Google doc, and then
+submit it via Canvas as a pdf</li>
+</ul>
+<p><br></p>
+</div>
+</div>
+<div id="assignment-3" class="section level2">
+<h2>Assignment 3</h2>
+<div id="draft-proposal-introduction" class="section level3">
+<h3>Draft proposal introduction</h3>
+<p><strong>Background</strong> Your assignment this week is to draft the
+introduction and rationale for a research proposal based on your area of
+research. As we discussed in class, this is an important part of every
+proposal because it sets the stage by providing background information
+and justification for the proposed research (i.e., “Why is this topic
+important?”).</p>
+<p><strong>Instructions</strong> Write a draft consisting of at least 3
+paragraphs with the following general structure:</p>
+<ul>
+<li>What is the problem/question and why is it important?</li>
+<li>What do we know and what is lacking in our understanding?</li>
+<li>What are the 2-3 objectives and specific hypotheses/questions?</li>
+</ul>
+<p>Make sure to cite all relevant references and include them in a
+section labeled “References”. If you are so inclined, and you think it
+would help communicate the ideas in your proposal, feel free to also
+include a figure or schematic (this is not required, though).</p>
+<p><strong>Submission</strong> When you are finished, submit via Canvas
+as a Word document or provide a link to a Google document, such that
+Chelsea will be able to provide comments directly on the draft
+itself.</p>
+<p><br></p>
+</div>
+</div>
+<div id="assignment-4" class="section level2">
+<h2>Assignment 4</h2>
+<div id="writing-a-cover-letter" class="section level3">
+<h3>Writing a cover letter</h3>
+<p><strong>Instructions</strong> Write a cover letter for a submission
+to a journal using the template below. Base your letter upon the paper
+you chose for Assignment 1, as though it were your own original
+manuscript. Alternatively, you may choose to base your letter upon a
+paper you are currently getting ready to submit.</p>
+<p><strong>Submission</strong> When you are finished, submit a Word
+document or Google Docs link to Canvas, such that Chelsea will be able
+to provide comments directly on the draft itself.</p>
+<p>Letter template [Editor’s First and Last Name], [Graduate Degree]
+[Editor’s title] [Journal Name] [Journal Address] [Submission Date:
+Month Day, Year]</p>
+<p>Dear Dr. [Editor’s last name]:</p>
+<p>[Paragraph 1: 2–3 sentences] Begin with a sentence that mentions the
+paper’s title and the journal to which you are submitting. Then include
+1-2 sentences that summarize the study design, your research question,
+your major findings, and the conclusion.</p>
+<p>[Paragraph 2: 2–5 sentences] Describe the context that prompted your
+research and state why the paper will appeal to the journal’s
+readership. Include information that connects your submission to aspects
+of the journal’s Aim and Scope. Here are some tips:</p>
+<ul>
+<li>Identify the journal audience and how they can use your research to
+expand their understanding of the topic</li>
+<li>Include context about why this research question had to be
+addressed</li>
+<li>Mention if the paper was prompted by prior research</li>
+</ul>
+<p>[Paragraph 3: 2-3 sentences] Briefly describe how the submission
+relates to prior works (especially any published previously by the same
+journal).</p>
+<p>[Paragraph 4: 1-3 sentence] Disclose whether or not any of the
+information in the paper has been published or presented elsewhere.</p>
+<p>[Paragraph 5: 1 sentence] Provide the names and justification for 3
+potential reviewers. Take these from the authors of the previous papers
+you identified in HW #1.</p>
+<ul>
+<li>[Name, institution, email, expertise]</li>
+<li>[Name, institution, email, expertise]</li>
+<li>[Name, institution, email, expertise]</li>
+</ul>
+<p>[Paragraph 6: 1 sentence] Claim any conflicts of interest or
+explicitly declare that there are none.</p>
+<p>Sincerely,</p>
+<p>[Your Name]</p>
+<p>Corresponding Author [Institution Title] [Institution/Affiliation
+Name] [Institution Address] [Your e-mail address] [Tel: (include
+relevant country/area code)]</p>
+<p><br></p>
+</div>
+</div>
+<div id="assignment-5" class="section level2">
+<h2>Assignment 5</h2>
+<div id="reviewing-a-manuscript" class="section level3">
+<h3>Reviewing a manuscript</h3>
+<p><strong>Instructions</strong> Write a peer review of the preprint
+article by Purgar et al. titled Identify, quantify, act: Tackling the
+unused potential of ecological research, which has been posted to the
+EcoEvoRxiv Preprint server and you can download here. This paper is
+written in more of an essay format, but it is general enough that
+everyone in class should be able to read, understand, and comment on
+it.</p>
+<p>Your review should follow the template provided below.</p>
+<p><strong>Submission</strong> When you are finished, submit a Word
+document or a link to a Google doc via Canvas, such that Chelsea will be
+able to provide comments directly on the draft itself</p>
+<p><strong>Review template</strong></p>
+<p>Comments to the editor (These are confidential and will not be seen
+by the authors.)</p>
+<p>This is an opportunity to place your comments or major concerns into
+context. This section should be brief (1 paragraph).</p>
+<p>General comments (These comments go directly to the authors.)</p>
+<p>I typically begin this section with a one paragraph summary of what I
+thought the paper was about and then I highlight major
+findings/conclusions.</p>
+<p>I then write 1-4 paragraphs that synthesize the most critical aspects
+of the quality of the science (either positive or negative) that you
+think should influence the manuscript decision. I also add big-picture
+suggestions for improving the manuscript, such as</p>
+<ul>
+<li><em>Scientific quality:</em> soundness of results and analysis,
+novelty, support of conclusions, and cohesiveness of argument</li>
+<li><em>Writing and presentation:</em> organization and flow of
+manuscript, writing style, quality of figures and tables, clarity in
+message, length relative to information content</li>
+</ul>
+<p>Specific comments (These comments go directly to the authors.)</p>
+<p>These are meant to highlight specific issues/problems you have with
+background, analyses, interpretation, etc. I prefer to reference these
+by page/line number, if/when possible. For example,</p>
+<p>L111: Please clarify what you mean by blah.</p>
+<p>L222: Here you mention X samples, but on line 200 you said it was Y
+samples. Which statement is correct?</p>
+<p>L333: There is a citation here for Smith (2020), but that reference
+does not appear in the literature cited section.</p>
+<p><br></p>
+</div>
+</div>
+<div id="assignment-6" class="section level2">
+<h2>Assignment 6</h2>
+<div id="practice-proposal-presentation" class="section level3">
+<h3>Practice proposal presentation</h3>
+<p><strong>Background</strong> Your assignment this week is to give a
+<strong>practice version</strong> your proposal presentation in class.
+Your presentation should cover the following elements:</p>
+<ul>
+<li>Background and rationale for your proposed research</li>
+<li>Questions of interest (or hypotheses to test)</li>
+<li>Methods/approach</li>
+<li>Anticipated results</li>
+<li>Implications (intellectual merit)</li>
+</ul>
+<p><strong>Evaluation rubric</strong> This version of the presentation
+will not be graded (although you must complete it to pass the class).
+Instead, this week you will receive feedback from Chelsea and your
+classmates to improve the presentation. You will be graded on the final
+version of the presentation, which will be given next week. The quality
+of your presentation will be evaluated based on the following
+criteria:</p>
+<ul>
+<li>Title slide with name, affiliation, and contact info</li>
+<li>Acknowledgment of collaborators and funders</li>
+<li>Layout/design of the slides (e.g., good color contrast, appropriate
+font size)</li>
+<li>Speaking clearly and addressing the audience rather than the
+computer or slides</li>
+<li>Presenting the background and clear rationale for the study</li>
+<li>Brief explanation of the methods or approach</li>
+<li>Highlighting expected results and any potential difficulties</li>
+<li>Brief comment(s) on the implications of the research</li>
+<li>Appropriate ending</li>
+</ul>
+<p><strong>Presentation upload</strong> Please note that due to our
+tight time frame in class, you are required to upload your presentation
+ahead of class time (see Canvas). Also note that presentations will only
+be accepted in either presentation (.ppt, .pptx) or PDF (.pdf) formats.
+If you use an .html format (eg, ioslides, Xaringan), you will need to
+print your slide deck to a .pdf format using your browser’s print
+function.</p>
+<p><br></p>
+</div>
+</div>
+<div id="assignment-7" class="section level2">
+<h2>Assignment 7</h2>
+<div id="formal-proposal-presentation" class="section level3">
+<h3>Formal proposal presentation</h3>
+<p><strong>Background</strong> Your assignment this week is to give a
+<strong>formal version</strong> your proposal presentation in class, for
+a grade. Your presentation should cover the following elements:</p>
+<ul>
+<li>Background and rationale for your proposed research</li>
+<li>Questions of interest (or hypotheses to test)</li>
+<li>Methods/approach</li>
+<li>Anticipated results</li>
+<li>Implications (intellectual merit)</li>
+</ul>
+<p><strong>Evaluation rubric</strong> This version of the presentation
+<strong>will</strong> be graded. The quality of your presentation will
+be evaluated based on the following criteria:</p>
+<ul>
+<li>Title slide with name, affiliation, and contact info</li>
+<li>Acknowledgment of collaborators and funders</li>
+<li>Layout/design of the slides (e.g., good color contrast, appropriate
+font size)</li>
+<li>Speaking clearly and addressing the audience rather than the
+computer or slides</li>
+<li>Presenting the background and clear rationale for the study</li>
+<li>Brief explanation of the methods or approach</li>
+<li>Highlighting expected results and any potential difficulties</li>
+<li>Brief comment(s) on the implications of the research</li>
+<li>Appropriate ending</li>
+</ul>
+<p><strong>Presentation upload</strong> Please note that due to our
+tight time frame in class, you are required to upload your presentation
+ahead of class time (see Canvas). Also note that presentations will only
+be accepted in either presentation (.ppt, .pptx) or PDF (.pdf) formats.
+If you use an .html format (eg, ioslides, Xaringan), you will need to
+print your slide deck to a .pdf format using your browser’s print
+function.</p>
+<p><br></p>
+</div>
+</div>
+<div id="assignment-8" class="section level2">
+<h2>Assignment 8</h2>
+<div id="final-proposal" class="section level3">
+<h3>Final proposal</h3>
+<p><strong>Background</strong> Your final assignment for the course is
+to complete a full draft of a research proposal, building on the
+introductory material you wrote for Assignment 3. Some of you do not yet
+have fully formed research projects, so please do the best you can at
+this point, just as you did with your presentation. Chelsea will be
+looking for well-formed ideas, rationale, and methods, as well as
+improvement in your writing from your first draft.</p>
+<p><strong>Instructions</strong> Write a full draft of your research
+proposal with the following general structure that addresses the
+questions within each section. In addition, if you think it would help
+communicate the ideas in your proposal, feel free to also include 1-2
+figures or schematics with appropriate captions (this is not required,
+though).</p>
+<p><strong>Background and rationale (2-3 paragraphs)</strong> - What is
+the problem/question and why is it important? What do we know and what
+is lacking in our understanding?</p>
+<p><strong>Objectives (1 paragraph)</strong> - What are your objectives
+and specific hypotheses/questions?</p>
+<p><strong>Approach (2-3 paragraphs)</strong> - What materials, data,
+and methods will you use to address the questions?</p>
+<p><strong>Expectations (1-2 paragraphs)</strong> - What do you
+hope/expect to learn/discover?</p>
+<p><strong>Intellectual merit (1-2 paragraphs)</strong> - What are the
+implications of your proposed research for the larger scientific
+commmunity?</p>
+<p><strong>Broader impacts (1-2 paragraphs)</strong> - What is the
+potential for the proposed activity to benefit society or advance
+desired societal outcomes? To what extent does your proposed research
+explore creative, original or potentially transformative concepts?</p>
+<p><strong>References</strong> - Make sure to cite all relevant
+references and include them in a section labeled “References”. Format
+your references using some form of (Author(s) Year) or Author(s) (Year)
+style rather than superscripted numbers or letters.</p>
+<p><strong>Submission</strong> When you are finished, submit via Canvas
+a Word document or a link to a Google Document, such that Chelsea will
+be able to provide comments directly on the draft itself.</p>
+<p><br></p>
+<center>
+<em>This site was last updated at 09:48 on 27 Nov 2025</em>
+</center>
+</div>
+</div>
+</div>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -502,6 +1002,35 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3,h4",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
