@@ -65,7 +65,7 @@ If you are a FISH 521 student, this website will be your resource for all course
 
 **In-class activities:** 
 
-* [In-class presentation]("lectures.html")
+* [In-class presentation](lectures/week_01/lec_01_class_overview.html)
 * Developing a time management system that works for you
 * Creating your mentoring map
 * Developing your literature search strategies
