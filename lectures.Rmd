@@ -98,7 +98,7 @@ If you are a FISH 521 student, this website will be your resource for all course
 
 **In-class activity:** 
 
-* [Powerpoint file](docs/lectures/week_01/lec_01_class_overview.html)
+* [In-class presentation](lectures/week_02/lec_02_proposals_abstracts.html)
 * Craft your message using a message box
 * Writing an abstract
 
@@ -127,7 +127,7 @@ If you are a FISH 521 student, this website will be your resource for all course
 
 **In-class activity:** 
 
-* [Powerpoint file](docs/lectures/week_01/lec_01_class_overview.html)
+* [In-class presentation](lectures/week_04/lec_03_manuscripts.html)
 
 <br>
 
@@ -158,7 +158,7 @@ If you are a FISH 521 student, this website will be your resource for all course
 
 **In-class activity:** 
 
-* [Powerpoint file](docs/lectures/week_01/lec_01_class_overview.html)
+* [In-class presentation](lectures/week_05/lec_04_manuscripts_2.html)
 
 <br>
 
@@ -188,7 +188,7 @@ If you are a FISH 521 student, this website will be your resource for all course
 
 **In-class activity:** 
 
-* [Powerpoint file](docs/lectures/week_01/lec_01_class_overview.html)
+* [In-class presentation](lectures/week_06/lec_05_reviewing.html)
 * Mock NSF review panel
 
 <br>
@@ -216,7 +216,9 @@ If you are a FISH 521 student, this website will be your resource for all course
 
 **In-class activity:** 
 
-* [Powerpoint file](docs/lectures/week_01/lec_01_class_overview.html)
+* [In-class presentation](lectures/week_07/lec_06_scicomm.html)
+* [In-class presentation](lectures/week_07/lec_06b_websites.html)
+* [In-class presentation](lectures/week_07/lec_06c_websites.html)
 
 <br>
   
@@ -242,7 +244,7 @@ If you are a FISH 521 student, this website will be your resource for all course
 
 **In-class activity:** 
 
-* [Powerpoint file](docs/lectures/week_01/lec_01_class_overview.html)
+* [In-class presentation](lectures/week_09/lec_07_presentations.html)
 
 <br>
 
@@ -263,7 +265,7 @@ If you are a FISH 521 student, this website will be your resource for all course
 
 **In-class activity:** 
 
-* [Powerpoint file](docs/lectures/week_01/lec_01_class_overview.html)
+* [In-class presentation](lectures/week_10/lec_08_panel.html)
 * Your final proposal presentations!
 
 <br>
