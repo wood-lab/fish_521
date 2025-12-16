@@ -176,6 +176,7 @@ If you are a FISH 521 student, this website will be your resource for all course
 
 * [BES guide to peer review](https://wood-lab.github.io/fish_521/references/BES_guide_to_peer_review.pdf)
 * [Taylor & Francis guide to peer review](https://wood-lab.github.io/fish_521/references/taylor_francis_reviewer_guide.pdf)
+* [Tips and tricks for writing constructive peer reviews](https://wood-lab.github.io/fish_521/references/Clements_et_al_2025.pdf)
 * [Unprofessional peer reviews](https://wood-lab.github.io/fish_521/references/Silbiger_2019_peer_review_urm.pdf)
 * [Overly harsh peer reviews](https://wood-lab.github.io/fish_521/references/Clements_2020_prig_peer_review.pdf)
 * [Quantifying professionalism in peer reviews](https://wood-lab.github.io/fish_521/references/Gerwing_2020_prof_peer_review.pdf)
@@ -231,6 +232,7 @@ If you are a FISH 521 student, this website will be your resource for all course
 
 * Your practice proposal presentations!
 * How to secure letters of recommendation and ensure that they are spectacular
+* How to get what you want
 * How to do it all without overdoing it
 
 **Required readings:** 
