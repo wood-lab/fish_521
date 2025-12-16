@@ -432,3 +432,10 @@ Reference management
 
 * this is a great way of staying on top of the literature!
 * let's do it together
+
+
+## {.flexbox .vcenter .bigger}
+
+<font size="10">
+What else do you want to learn this quarter?
+</font>
