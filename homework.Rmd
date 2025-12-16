@@ -21,8 +21,8 @@ output:
 | Assignment 3 | 15% |
 | Assignment 4 | 10% |
 | Assignment 5 | 20% |
-| Assignment 6 | 20% |
-| Assignment 7 | 0% (but assignment must be completed for a passing grade) |
+| Assignment 6 | 0% (but assignment must be completed for a passing grade)  |
+| Assignment 7 | 20% |
 | Assignment 8 | 25% |
 
 <br>
