@@ -44,7 +44,7 @@ If you are a FISH 521 student, this website will be your resource for all course
 * Reference management
 * What do you want to learn this quarter?
 
-**Required:** 
+**Required readings:** 
 
 * [*Field Guide to Graduate School*](https://press.princeton.edu/books/paperback/9780691201092/a-field-guide-to-grad-school?srsltid=AfmBOooNXYYd-0yyIIr7Mz0qAQNxbQ8wfWQz-Qod86wn9DO9pQPIWTcE) Introduction
 * [*Field Guide to Graduate School*](https://press.princeton.edu/books/paperback/9780691201092/a-field-guide-to-grad-school?srsltid=AfmBOooNXYYd-0yyIIr7Mz0qAQNxbQ8wfWQz-Qod86wn9DO9pQPIWTcE) Chapter 2: Building your team
@@ -79,12 +79,14 @@ If you are a FISH 521 student, this website will be your resource for all course
 
 **Topics to be covered:**
 
+* How to ask scientific questions
 * Structuring a proposal
 * Using a message box
 * Writing an abstract
 
 **Required readings:** 
 
+* [Research and experimental design](https://wood-lab.github.io/fish_521/references/Garton_et_al_2020.pdf)
 * [*Field Guide to Graduate School*](https://press.princeton.edu/books/paperback/9780691201092/a-field-guide-to-grad-school?srsltid=AfmBOooNXYYd-0yyIIr7Mz0qAQNxbQ8wfWQz-Qod86wn9DO9pQPIWTcE) Chapter 6: Doing research and finding funding
 * [*Field Guide to Graduate School*](https://press.princeton.edu/books/paperback/9780691201092/a-field-guide-to-grad-school?srsltid=AfmBOooNXYYd-0yyIIr7Mz0qAQNxbQ8wfWQz-Qod86wn9DO9pQPIWTcE) Chapter 7: Writing about your research
 * [Proposal recipe](https://wood-lab.github.io/fish_521/references/proposal_recipe.jpg)
