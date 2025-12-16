@@ -426,3 +426,9 @@ Reference management
 | [Mendeley](https://www.mendeley.com/download-reference-manager/) | works with MS Word | can be hard to share | 
 | [Paperpile](https://paperpile.com) | works with Google Docs | costs $2.99/month |
 | [BibTeX](http://www.bibtex.org/) | works with LaTeX & Markdown | antiquated |
+
+
+## Subscribing to journal ToC alerts
+
+* this is a great way of staying on top of the literature!
+* let's do it together

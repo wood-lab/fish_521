@@ -2,7 +2,7 @@
 title: "Course overview"
 subtitle: "Proposal writing & professional development<br>FISH 521"
 author: "Chelsea Wood"
-date: "6 January 2025"
+date: "5 January 2026"
 output:
   ioslides_presentation:
     css: lecture_slides.css
@@ -96,24 +96,84 @@ Course logistics
 </font>
 
 
-## General weekly schedule
-
-* 1:30 - 2:30 discussion of background info
-
-* 2:30 - 2:40 *break*
-
-* 2:40 - 3:25 hands-on exercises & small-group discussions
-
-* 3:25 - 3:35 *break*
-
-* 3:35 - 4:20 feedback & further discussion
-
-
 ## {.flexbox .vcenter .bigger}
 
 <font size="10">
 [__Course information__](https://wood-lab.github.io/fish_521/)
 </font>
+
+
+## What to expect
+
+1. 4 credits = 12 hours / week
+
+2. Expect to spend substantial time reading/watching/writing outside of class
+
+3. Expect to spend in-class time engaged in discussion, writing, problem-solving, and higher-order thinking
+
+4. Expect to struggle, and to emerge from the class with better skills for taking advantage of professional opportunities - including a draft of your thesis/dissertation proposal
+
+
+## {.flexbox .vcenter .bigger}
+
+<font size="10">
+Course goal
+</font>
+
+
+## Course goal
+
+To teach you all the professional skills that grads are usually expected to pick up on their own, including:
+
+* self-management
+* networking
+* developing a project
+* writing and submitting manuscripts
+* reviewing manuscripts and proposals
+* marketing yourself
+* presentation skills
+* collaboration skills
+* what else do you want to learn?
+
+
+## {.flexbox .vcenter .bigger}
+
+<font size="10">
+Building a mentorship network
+</font>
+
+
+## There is no guru
+
+One person cannot give you everything you need to grow as a scientist. Relying on a mentorship network is more sustainable, and gives you access to a broader range of expertise and experience.
+
+
+## &nbsp; {data-background=mentoring_network.png data-background-size=60%}
+
+
+## {.flexbox .vcenter .bigger}
+
+<font size="10">
+Time management
+</font>
+
+
+## A unique time management system that works for you
+
+You need a system to organize all of the tasks that are falling on your desk. Your system needs to work for your brain, but it should have three elements:
+
+* A list of things to do
+* A way to connect those things to specific times when they will be done
+* A standing time to organize
+
+
+## Here's what works for me
+
+* A list of things to do: ToDoist
+* A way to connect those things to specific times when they will be done: Google Calendar
+* A standing time to organize: Chelsea's weekly meeting
+
+* What works for you? Let's try some stuff.
 
 
 ## {.flexbox .vcenter .bigger}
@@ -312,26 +372,6 @@ Heard (2016, p22) writes
 ## {.flexbox .vcenter .bigger}
 
 <font size="10">
-Creative writing exercise
-</font>
-
-
-## &nbsp; {data-background=story_cubes.jpeg data-background-size=60%}
-
-
-## Story cubes - instructions
-
-1. Pick an image for the starting point of your story.
-
-2. Beginning with "Once upon a time...", make up a story that somehow links together all 9 of the images.
-
-
-## &nbsp; {data-background=story_cubes_roll.jpg data-background-size=60%}
-
-
-## {.flexbox .vcenter .bigger}
-
-<font size="10">
 Searching the literature
 </font>
 
@@ -386,3 +426,9 @@ Reference management
 | [Mendeley](https://www.mendeley.com/download-reference-manager/) | works with MS Word | can be hard to share | 
 | [Paperpile](https://paperpile.com) | works with Google Docs | costs $2.99/month |
 | [BibTeX](http://www.bibtex.org/) | works with LaTeX & Markdown | antiquated |
+
+
+## Subscribing to journal ToC alerts
+
+* this is a great way of staying on top of the literature!
+* let's do it together
