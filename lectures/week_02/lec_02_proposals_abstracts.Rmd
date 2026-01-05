@@ -1,8 +1,8 @@
 ---
-title: "Elements of a scientific proposal"
+title: "How to do science"
 subtitle: "Proposal writing & professional development<br>FISH 521"
 author: "Chelsea Wood"
-date: "13 January 2025"
+date: "12 January 2026"
 output:
   ioslides_presentation:
     css: lecture_slides.css
@@ -12,7 +12,51 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## General structure | 3 important pieces
+## What is science?
+
+> - Science is both the collection of facts we know about nature and the process by which we obtain those facts.
+
+> - Science is the systematic study of nature by testing theories against evidence obtained.
+
+> - Science is ongoing: it is a self-correcting process that (ideally) proceeds toward perfection (but never reaches it).
+
+## What is the scientific method?
+
+"a method of procedure that has characterized natural science since the 17th century, consisting in systematic observation, measurement, and experiment, and the formulation, testing, and modification of hypotheses."
+
+## Let's step through the scientific method together
+
+* Watch [this video]()
+* Get into pairs
+* Work together to complete [this worksheet](references/Class 2 - In-class activity - How to do science.docx). Feel free to use the whiteboards around the room to sketch things out as you're brainstorming.
+* Consult [Garton et al. 2020](references/Garton_et_al_2020.pdf) to make sure that your answers are complete
+* Share your design with the rest of the class
+* You will e-mail the worksheet to Chelsea before the end of class today, after a few more exercises...
+
+## Trade-offs between certainty and scope of inference in experimental design
+
+> - Figure 1.4 in [Garton et al. 2020](references/Garton_et_al_2020.pdf) shows trade-offs between certainty and realism/scope of inference
+> - Without consulting the figure, where would you place the following designs on axes (x = scope of inference, y = certainty): natural history observations, laboratory experiment, model, field experiment, replicated natural experiment, unreplicated natural experiment, multiple approaches
+
+## Considerations in experimental design - check your design
+
+> - replication
+> - controls
+> - sample size
+> - power
+> - procedural inconsistency
+> - nonuniform treatments
+> - pseudoreplication
+
+## Proposals are not just for funding
+
+A proposal is an opportunity to:
+
+> - critically evaluate your planned research before you invest effort
+> - receive feedback (from your PI, peers, other experts) before you invest effort
+> - obtain funding for your research
+
+## General structure of a proposal
 
 1. Title
 
@@ -24,19 +68,6 @@ knitr::opts_chunk$set(echo = FALSE)
     - figures / tables  
     - references  
     - budget
-
-
-## General structure | Title
-
-* Must get the attention of a wide but appropriate range of potential readers.
-
-> - Who is the target audience? What is the funding source? Related to species, region, habitat, taxa?
-
-> - Need not be formal but avoid getting too cute
-
-> - Pros and cons of being specific and general
-
-> - Consider a rough title to help think about the proposal & then refine it later
 
 
 ## General structure | Abstract
@@ -193,11 +224,6 @@ Two levels engagement to consider:
 > - Conference travel & publication charges can be costly, so make sure to explicitly address these in the budget
 
 > - Graphical abstracts, videos, and social media are becoming increasingly popular
-
-
-## Animate your science
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/O4BF8Ef_OIg?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## Outreach & communication | General public
@@ -434,7 +460,7 @@ Crafting a meaningful and impactful message takes practice
 
 ## In-class exercise
 
-* Work in groups of 3-4 people
+* Work in groups of 2-3 people
 
 * Spend 10 minutes working on your message; issue can be *anything* you'd like
 

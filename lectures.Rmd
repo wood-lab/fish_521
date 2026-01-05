@@ -32,7 +32,9 @@ If you are a FISH 521 student, this website will be your resource for all course
 
 # Classes
 
-## Class 1
+<br>
+
+## Class 1: Skills to get up and running
 
 **Topics to be covered:**
 
@@ -75,7 +77,7 @@ If you are a FISH 521 student, this website will be your resource for all course
 
 <br>
 
-## Class 2
+## Class 2: How to do science
 
 **Topics to be covered:**
 
@@ -101,6 +103,9 @@ If you are a FISH 521 student, this website will be your resource for all course
 **In-class activity:** 
 
 * [In-class presentation](lectures/week_02/lec_02_proposals_abstracts.html)
+* The scientific method
+* Trade-offs between certainty and scope of inference in experimental design
+* Proposals
 * Craft your message using a message box
 * Writing an abstract
 

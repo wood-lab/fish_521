@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Elements of a scientific proposal</title>
+  <title>How to do science</title>
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -9,7 +9,7 @@
 
 
 
-  <meta name="date" content="2025-01-13" />
+  <meta name="date" content="2026-01-12" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -20,7 +20,7 @@
     var SLIDE_CONFIG = {
       // Slide settings
       settings: {
-                title: 'Elements of a scientific proposal',
+                title: 'How to do science',
                         subtitle: 'Proposal writing &amp; professional development<br>FISH 521',
                 useBuilds: true,
         usePrettify: true,
@@ -3070,18 +3070,21 @@ var loadDeck = function(event) {
   });
 };
 
-if (document.readyState !== "loading" &&
-    document.querySelector('slides') === null) { 
-  // if the document is done loading but our element hasn't yet appeared, defer
-  // loading of the deck
-  window.setTimeout(function() {
-    loadDeck(null);
-  }, 0);
-} else {
-  // still loading the DOM, so wait until it's finished
-  document.addEventListener("DOMContentLoaded", loadDeck);
-}
+if (!window.Shiny) {
+  // If Shiny is loaded, the slide deck is initialized in ioslides template
 
+  if (document.readyState !== "loading" &&
+      document.querySelector('slides') === null) {
+    // if the document is done loading but our element hasn't yet appeared, defer
+    // loading of the deck
+    window.setTimeout(function() {
+      loadDeck(null);
+    }, 0);
+  } else {
+    // still loading the DOM, so wait until it's finished
+    document.addEventListener("DOMContentLoaded", loadDeck);
+  }
+}
 
 
 </script>
@@ -3181,11 +3184,69 @@ font-size: 90%;
       <h1 data-config-title><!-- populated from slide_config.json --></h1>
       <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
       <p data-config-presenter><!-- populated from slide_config.json --></p>
-            <p style="margin-top: 6px; margin-left: -2px;">13 January 2025</p>
+            <p style="margin-top: 6px; margin-left: -2px;">12 January 2026</p>
           </hgroup>
   </slide>
 
-<slide class=""><hgroup><h2>General structure </h2><h3> 3 important pieces</h3></hgroup><article  id="general-structure-3-important-pieces">
+<slide class=""><hgroup><h2>What is science?</h2></hgroup><article  id="what-is-science">
+
+<ul class = 'build'>
+<li>Science is both the collection of facts we know about nature and the process by which we obtain those facts.</li>
+</ul>
+
+<ul class = 'build'>
+<li>Science is the systematic study of nature by testing theories against evidence obtained.</li>
+</ul>
+
+<ul class = 'build'>
+<li>Science is ongoing: it is a self-correcting process that (ideally) proceeds toward perfection (but never reaches it).</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>What is the scientific method?</h2></hgroup><article  id="what-is-the-scientific-method">
+
+<p>&ldquo;a method of procedure that has characterized natural science since the 17th century, consisting in systematic observation, measurement, and experiment, and the formulation, testing, and modification of hypotheses.&rdquo;</p>
+
+</article></slide><slide class=""><hgroup><h2>Let’s step through the scientific method together</h2></hgroup><article  id="lets-step-through-the-scientific-method-together">
+
+<ul>
+<li>Watch <a href='' title=''>this video</a></li>
+<li>Get into pairs</li>
+<li>Work together to complete <a href='references/Class%202%20-%20In-class%20activity%20-%20How%20to%20do%20science.docx' title=''>this worksheet</a>. Feel free to use the whiteboards around the room to sketch things out as you’re brainstorming.</li>
+<li>Consult <a href='references/Garton_et_al_2020.pdf' title=''>Garton et al. 2020</a> to make sure that your answers are complete</li>
+<li>Share your design with the rest of the class</li>
+<li>You will e-mail the worksheet to Chelsea before the end of class today, after a few more exercises…</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Trade-offs between certainty and scope of inference in experimental design</h2></hgroup><article  id="trade-offs-between-certainty-and-scope-of-inference-in-experimental-design">
+
+<ul class = 'build'>
+<li>Figure 1.4 in <a href='references/Garton_et_al_2020.pdf' title=''>Garton et al. 2020</a> shows trade-offs between certainty and realism/scope of inference</li>
+<li>Without consulting the figure, where would you place the following designs on axes (x = scope of inference, y = certainty): natural history observations, laboratory experiment, model, field experiment, replicated natural experiment, unreplicated natural experiment, multiple approaches</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Considerations in experimental design - check your design</h2></hgroup><article  id="considerations-in-experimental-design---check-your-design">
+
+<ul class = 'build'>
+<li>replication</li>
+<li>controls</li>
+<li>sample size</li>
+<li>power</li>
+<li>procedural inconsistency</li>
+<li>nonuniform treatments</li>
+<li>pseudoreplication</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Proposals are not just for funding</h2></hgroup><article  id="proposals-are-not-just-for-funding">
+
+<p>A proposal is an opportunity to:</p>
+
+<ul class = 'build'>
+<li>critically evaluate your planned research before you invest effort</li>
+<li>receive feedback (from your PI, peers, other experts) before you invest effort</li>
+<li>obtain funding for your research</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>General structure of a proposal</h2></hgroup><article  id="general-structure-of-a-proposal">
 
 <ol>
 <li><p>Title</p></li>
@@ -3199,28 +3260,6 @@ font-size: 90%;
 <li>budget</li>
 </ul></li>
 </ol>
-
-</article></slide><slide class=""><hgroup><h2>General structure </h2><h3> Title</h3></hgroup><article  id="general-structure-title">
-
-<ul>
-<li>Must get the attention of a wide but appropriate range of potential readers.</li>
-</ul>
-
-<ul class = 'build'>
-<li>Who is the target audience? What is the funding source? Related to species, region, habitat, taxa?</li>
-</ul>
-
-<ul class = 'build'>
-<li>Need not be formal but avoid getting too cute</li>
-</ul>
-
-<ul class = 'build'>
-<li>Pros and cons of being specific and general</li>
-</ul>
-
-<ul class = 'build'>
-<li>Consider a rough title to help think about the proposal &amp; then refine it later</li>
-</ul>
 
 </article></slide><slide class=""><hgroup><h2>General structure </h2><h3> Abstract</h3></hgroup><article  id="general-structure-abstract">
 
@@ -3407,12 +3446,6 @@ font-size: 90%;
 <ul class = 'build'>
 <li>Graphical abstracts, videos, and social media are becoming increasingly popular</li>
 </ul>
-
-</article></slide><slide class=""><hgroup><h2>Animate your science</h2></hgroup><article  id="animate-your-science">
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/O4BF8Ef_OIg?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-
-</iframe>
 
 </article></slide><slide class=""><hgroup><h2>Outreach &amp; communication </h2><h3> General public</h3></hgroup><article  id="outreach-communication-general-public">
 
@@ -3730,7 +3763,7 @@ font-size: 90%;
 </article></slide><slide class=""><hgroup><h2>In-class exercise</h2></hgroup><article  id="in-class-exercise">
 
 <ul>
-<li><p>Work in groups of 3-4 people</p></li>
+<li><p>Work in groups of 2-3 people</p></li>
 <li><p>Spend 10 minutes working on your message; issue can be <em>anything</em> you’d like</p></li>
 <li><p>Each person gets 2 minutes to present their message box</p></li>
 <li><p>Group gives concrete, constructive feedback for ~3 min each</p></li>
@@ -3869,6 +3902,11 @@ font-size: 90%;
        window.jQuery(document).on('slideenter', function(e) {
          window.jQuery(e.target).trigger('shown');
       });
+    }
+    if (window.Shiny) {
+      // Initialize slides when this script appears on the page, since it
+      // indicates that the <slides> markup has been fully loaded.
+      window.loadDeck();
     }
   })();
 </script>
