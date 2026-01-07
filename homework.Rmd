@@ -106,20 +106,51 @@ Provide the citations for 5 papers that cited your focal paper and that you are 
 
 ## Assignment 2
 
-### Using a message box
+### Study design
 
-**Task 1**
-Complete a message box for any issue aimed at any audience. This could be something related to your (intended) research, a hobby, an issue you’re passionate about, etc.
+In this assignment, you will sketch out a study design for a research question that could be tested in your thesis/dissertation research. You can choose to focus on the system you're studying in your graduate scholarship, or on any other system. I suggest you use this assignment as an opportunity to sketch out a study design that you're considering for a chapter of your thesis or dissertation.
 
-**Task 2**
-Complete a message box with the intention of targeting a granting agency (i.e., the “audience”) for funding to support any aspect of your graduate studies. If the specifics of your project are still uncertain, feel free to address another scientific question you find interesting or important.
+**Submit a document in which you answer the following prompts:**
+
+1.	Pose one research question. 
+2.	Outline a hypothesis space for the question you posed in (1) and identify the predictions that arise from each hypothesis.
+3.	Design a study that would allow you to test the predictions generated in (2). Imagine that you are working under ideal but real-world conditions: you have generous funding, lots of help, and plenty of time, but laws, regulations, and ethical boundaries (e.g., on use of vertebrate animals) still apply. Give as much detail as you would present in a funding proposal.
+4.	How would you visualize your results? Create at least one graph for each prediction, in which you show what the data would look like if data supported that prediction.
+
+#### Rubric
+
+**For question 1:**
+
+* in the form of a question (not a hypothesis or prediction)
+* interesting 
+* testable
+* bonus points if the question is also novel
+
+**For question 2:**
+
+* more than one hypothesis (i.e., uses the approach of multiple working hypotheses)
+* all hypotheses are sensible
+* all reasonable hypotheses are included
+* correctly distinguishes between hypotheses and predictions
+* each prediction logically arises from its corresponding hypothesis
+* each hypothesis produces a prediction that can be differentiated from the predictions of other hypotheses (i.e., strong predictions)
+
+**For question 3:**
+
+* lays out a detailed but realistic plan of research, including experimental design, techniques for data collection, levels of replication, statistical approach
+* sufficient detail for a reader to go out and conduct the proposed study
+* study would produce convincing evidence to test all predictions laid out in (2)
+* no major flaws in study design, such as lack of controls, confounding, misalignment between predictions and data
+
+**For question 4:**
+
+* correct plot type (e.g., scatterplot, barplot) is shown for each prediction
+* correct relationships depicted
+* data shown in each plot align clearly with prediction
 
 **Submitting your assignment**
 
-You have 2 options for submitting this assignment:
-
-- print a message box, fill it out in pencil/ink, scan it or take a picture of it, and then submit it via Canvas as a pdf
-- write out each of the sections in a Word or Google doc, and then submit it via Canvas as a pdf
+Write out your answers in a Word or Google doc, and then submit it via Canvas as a pdf.
 
 <br>
 
