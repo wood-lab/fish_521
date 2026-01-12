@@ -26,9 +26,9 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Let's step through the scientific method together
 
-* Watch [this video]()
+* Watch [this video](https://youtu.be/R2DU85qLfJQ?si=cDoutnJdv9U3StQ2&t=546)
 * Get into pairs
-* Work together to complete [this worksheet](references/Class 2 - In-class activity - How to do science.docx). Feel free to use the whiteboards around the room to sketch things out as you're brainstorming.
+* Work together to complete [this worksheet](references/class_2_worksheet.docx). Feel free to use the whiteboards around the room to sketch things out as you're brainstorming.
 * Consult [Garton et al. 2020](references/Garton_et_al_2020.pdf) to make sure that your answers are complete
 * Share your design with the rest of the class
 * You will e-mail the worksheet to Chelsea before the end of class today, after a few more exercises...
