@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Publishing a scientific paper</title>
+  <title>Writing a manuscript</title>
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -9,7 +9,7 @@
 
 
 
-  <meta name="date" content="2025-01-27" />
+  <meta name="date" content="2026-01-26" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -20,7 +20,7 @@
     var SLIDE_CONFIG = {
       // Slide settings
       settings: {
-                title: 'Publishing a scientific paper',
+                title: 'Writing a manuscript',
                         subtitle: 'Proposal writing &amp; professional development<br>FISH 521',
                 useBuilds: true,
         usePrettify: true,
@@ -3070,18 +3070,21 @@ var loadDeck = function(event) {
   });
 };
 
-if (document.readyState !== "loading" &&
-    document.querySelector('slides') === null) { 
-  // if the document is done loading but our element hasn't yet appeared, defer
-  // loading of the deck
-  window.setTimeout(function() {
-    loadDeck(null);
-  }, 0);
-} else {
-  // still loading the DOM, so wait until it's finished
-  document.addEventListener("DOMContentLoaded", loadDeck);
-}
+if (!window.Shiny) {
+  // If Shiny is loaded, the slide deck is initialized in ioslides template
 
+  if (document.readyState !== "loading" &&
+      document.querySelector('slides') === null) {
+    // if the document is done loading but our element hasn't yet appeared, defer
+    // loading of the deck
+    window.setTimeout(function() {
+      loadDeck(null);
+    }, 0);
+  } else {
+    // still loading the DOM, so wait until it's finished
+    document.addEventListener("DOMContentLoaded", loadDeck);
+  }
+}
 
 
 </script>
@@ -3181,18 +3184,49 @@ font-size: 90%;
       <h1 data-config-title><!-- populated from slide_config.json --></h1>
       <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
       <p data-config-presenter><!-- populated from slide_config.json --></p>
-            <p style="margin-top: 6px; margin-left: -2px;">27 January 2025</p>
+            <p style="margin-top: 6px; margin-left: -2px;">26 January 2026</p>
           </hgroup>
   </slide>
 
-<slide class=""><hgroup><h2>Science is a process</h2></hgroup><article  id="science-is-a-process">
+<slide class=""><hgroup><h2>Writing in the sciences</h2></hgroup><article  id="writing-in-the-sciences">
 
 <ul>
-<li>Publishing is part of the process</li>
+<li>Scientists write a lot.</li>
+<li>Our writing is what moves our field forward, because it is what lasts.</li>
 </ul>
 
 <ul class = 'build'>
-<li>The general flow goes something like the following</li>
+<li>papers (sometimes called manuscripts, publications, or pubs)</li>
+</ul>
+
+<ul class = 'build'>
+<li>proposals</li>
+</ul>
+
+<ul class = 'build'>
+<li>curricula</li>
+</ul>
+
+<ul class = 'build'>
+<li>policy</li>
+</ul>
+
+</article></slide><slide class=""><hgroup><h2>Today, we focus on manuscripts and proposals</h2></hgroup><article  id="today-we-focus-on-manuscripts-and-proposals">
+
+<ul>
+<li>Science is a global process of learning about nature.</li>
+</ul>
+
+<ul class = 'build'>
+<li>it’s nice if you learn something about nature…</li>
+</ul>
+
+<ul class = 'build'>
+<li>… but if you don’t write it down, no one else knows it, and that knowledge is lost.</li>
+</ul>
+
+<ul class = 'build'>
+<li>the way science preserves knowledge? papers.</li>
 </ul>
 
 </article></slide><slide class=""><hgroup><h2>Process of publishing </h2><h3> A. Someone takes the lead</h3></hgroup><article  id="process-of-publishing-a.-someone-takes-the-lead">
@@ -3350,11 +3384,11 @@ font-size: 90%;
 </ul>
 
 <ul class = 'build'>
-<li>reviewers are often neglected, overdue &amp; rushed (this can take months)</li>
+<li>reviews are often neglected, overdue, or rushed (this can take months)</li>
 </ul>
 
 <ul class = 'build'>
-<li>AE summarizes reviews, adds their own comments &amp; makes recommendation to EIC</li>
+<li>AE summarizes reviews, adds their own comments, &amp; makes recommendation to EIC</li>
 </ul>
 
 <ul class = 'build'>
@@ -3411,7 +3445,7 @@ font-size: 90%;
 
 <p><em>P 13 L 11-12: It’s simply absurd to think that an increase in water temperature of 1.9 degrees C could elicit the change in growth you observed.</em></p>
 
-<p>Our findings are very much in line with previous studies showing the effect of temperature on growth. For example, the reference we cited (Smith 2020) presents rather compelling evidence that a difference of only 1.5 degrees C increased growth by 20%.</p>
+<p>Our findings are in line with previous studies showing the effect of temperature on growth. For example, the reference we cited (Smith 2020) presents rather compelling evidence that a difference of only 1.5 degrees C increased growth by 20%.</p>
 
 </article></slide><slide class=""><hgroup><h2>Process of publishing </h2><h3> J. Revising &amp; resubmitting</h3></hgroup><article  id="process-of-publishing-j.-revising-resubmitting-3">
 
@@ -3419,7 +3453,7 @@ font-size: 90%;
 
 <p><em>P 9 L 4-6: It would seem that in addition to the growth study, the authors could also add an analysis of the diet data to examine possible relationships between shifts in composition accompanied the observed changes in growth.</em></p>
 
-<p>We agree with the reviewer that such an analysis could reveal some interesting patterns, but it is simply out of scope for this project given the resources and time required to undertake it.</p>
+<p>We agree with the reviewer that such an analysis could reveal some interesting patterns, but it is out of scope for this project given the resources and time required to undertake it.</p>
 
 </article></slide><slide class=""><hgroup><h2>Process of publishing </h2><h3> J. Revising &amp; resubmitting</h3></hgroup><article  id="process-of-publishing-j.-revising-resubmitting-4">
 
@@ -3444,7 +3478,7 @@ font-size: 90%;
 </ul>
 
 <ul class = 'build'>
-<li>pdf’s of page proofs are produced &amp; sent to the lead author</li>
+<li>pdfs of page proofs are produced &amp; sent to the lead author</li>
 </ul>
 
 <ul class = 'build'>
@@ -3843,6 +3877,11 @@ font-size: 90%;
        window.jQuery(document).on('slideenter', function(e) {
          window.jQuery(e.target).trigger('shown');
       });
+    }
+    if (window.Shiny) {
+      // Initialize slides when this script appears on the page, since it
+      // indicates that the <slides> markup has been fully loaded.
+      window.loadDeck();
     }
   })();
 </script>

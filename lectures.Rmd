@@ -112,7 +112,7 @@ If you are a FISH 521 student, this website will be your resource for all course
 <br>
 
 
-## Class 3
+## Class 3: Writing a manuscript
 
 **Topics to be covered:**
 
@@ -129,8 +129,11 @@ If you are a FISH 521 student, this website will be your resource for all course
 **Required videos:** 
 
 * [How to write a scientific paper from start to finish](https://www.youtube.com/watch?v=udJ3AnS2veU)
-* Video on manuscript life cycle
-* Video on authorship
+* [Structure of a manuscript](https://www.youtube.com/watch?v=lTnltrzzTzw)
+* [How to get started on a manuscript](https://youtu.be/xcIfCrOe45k?si=tv-fOe4xe4YR8UDl)
+* [Manuscript life cycle](https://youtu.be/r51GU4c-b9s?si=oFNqcJL0aKY4WjE8)
+* [Authorship on manuscripts](https://youtu.be/_xbNe54Y-hY?si=He-ZHlhFWrOb3jr3)
+* [Authorship order on manuscripts](https://youtu.be/WuvwdR-WyNw?si=aYZ2VAeFbLFSP0lh)
 
 **In-class activity:** 
 
@@ -139,7 +142,7 @@ If you are a FISH 521 student, this website will be your resource for all course
 <br>
 
 
-## Class 4
+## Class 4: Publishing a manuscript
 
 **Topics to be covered:**
 
@@ -158,8 +161,8 @@ If you are a FISH 521 student, this website will be your resource for all course
 
 **Required videos:** 
 
-* Video on how to choose a journal
-* Video on how to write a cover letter
+* [Choosing a journal for your manuscript](https://youtu.be/VUobJuDxJio?si=nO-pUKNmSeaUNPV7)
+* [Writing the cover letter for your manuscript](https://youtu.be/52OyqlGrUhE?si=3y3VqAbfazAbvoxv)
 * Video on what goes in supplementary material
 * Video on reproducibility
 
@@ -191,7 +194,9 @@ If you are a FISH 521 student, this website will be your resource for all course
 **Required videos:** 
 
 * [How to critically evaluate a research paper](https://www.youtube.com/watch?v=64DHO3hAeSM)
+* [How to provide a constructive peer review of a paper](https://youtu.be/cL7ktwQBg4I?si=GnUTAiQlccgsntgc)
 * [How to deal with manuscript rejections](https://www.youtube.com/watch?v=ZpZNTEHVmdw)
+* [Revising a paper after peer review](https://youtu.be/j-px82MMmA4?si=5yWZMWdVYk-xBlOD)
 * [How to revise and resubmit in no time](https://members.ncfdd.org/hhchapter6)
 
 **In-class activity:** 

@@ -1,8 +1,8 @@
 ---
-title: "Publishing a scientific paper"
+title: "Writing a manuscript"
 subtitle: "Proposal writing & professional development<br>FISH 521"
 author: "Chelsea Wood"
-date: "27 January 2025"
+date: "26 January 2026"
 output:
   ioslides_presentation:
     css: lecture_slides.css
@@ -13,12 +13,29 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
-## Science is a process
+## Writing in the sciences
 
-* Publishing is part of the process
+* Scientists write a lot.
 
-> - The general flow goes something like the following
+* Our writing is what moves our field forward, because it is what lasts.
 
+> - papers (sometimes called manuscripts, publications, or pubs)
+
+> - proposals
+
+> - curricula
+
+> - policy
+
+## Today, we focus on manuscripts and proposals
+
+* Science is a global process of learning about nature.
+
+> - It's nice if you learn something about nature...
+
+> - ... but if you don't write it down, no one else knows it, and that knowledge is lost.
+
+> - The way science preserves knowledge? papers.
 
 ## Process of publishing | A. Someone takes the lead
 
@@ -114,9 +131,9 @@ knitr::opts_chunk$set(echo = FALSE)
 
 > - paper assigned to Associate Editor (AE) or Subject Matter Editor (SME) who finds reviewers
 
-> - reviewers are often neglected, overdue & rushed (this can take months)
+> - reviews are often neglected, overdue, or rushed (this can take months)
 
-> - AE summarizes reviews, adds their own comments & makes recommendation to EIC
+> - AE summarizes reviews, adds their own comments, & makes recommendation to EIC
 
 > - EIC makes final decision
 
@@ -158,7 +175,7 @@ Example
 
 *P 13 L 11-12: It's simply absurd to think that an increase in water temperature of 1.9 degrees C could elicit the change in growth you observed.*
 
-Our findings are very much in line with previous studies showing the effect of temperature on growth. For example, the reference we cited (Smith 2020) presents rather compelling evidence that a difference of only 1.5 degrees C increased growth by 20%.
+Our findings are in line with previous studies showing the effect of temperature on growth. For example, the reference we cited (Smith 2020) presents rather compelling evidence that a difference of only 1.5 degrees C increased growth by 20%.
 
 
 ## Process of publishing | J. Revising & resubmitting
@@ -167,7 +184,7 @@ Example
 
 *P 9 L 4-6: It would seem that in addition to the growth study, the authors could also add an analysis of the diet data to examine possible relationships between shifts in composition accompanied the observed changes in growth.*
 
-We agree with the reviewer that such an analysis could reveal some interesting patterns, but it is simply out of scope for this project given the resources and time required to undertake it.
+We agree with the reviewer that such an analysis could reveal some interesting patterns, but it is out of scope for this project given the resources and time required to undertake it.
 
 
 ## Process of publishing | J. Revising & resubmitting
@@ -187,7 +204,7 @@ We agree with the reviewer that such an analysis could reveal some interesting p
 
 > - after everyone has agreed that the manuscript is acceptable it moves to production
 
-> - pdf's of page proofs are produced & sent to the lead author
+> - pdfs of page proofs are produced & sent to the lead author
 
 > - these should be scrutinized carefully, changes made & returned quickly (<1 week)
 
