@@ -35,7 +35,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Trade-offs between certainty and scope of inference in experimental design
 
-> - Figure 1.4 in [Garton et al. 2020](references/Garton_et_al_2020.pdf) shows trade-offs between certainty and realism/scope of inference
+> - Figure 1.4 in [Garton et al. 2020](https://wood-lab.github.io/fish_521/references/Garton_et_al_2020.pdf) shows trade-offs between certainty and realism/scope of inference
 > - Without consulting the figure, where would you place the following designs on axes (x = scope of inference, y = certainty): natural history observations, laboratory experiment, model, field experiment, replicated natural experiment, unreplicated natural experiment, multiple approaches
 
 ## Considerations in experimental design - check your design
