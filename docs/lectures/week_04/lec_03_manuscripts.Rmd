@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 * Our writing is what moves our field forward, because it is what lasts.
 
-> - papers (sometimes called manuscripts, publications, or pubs)
+> - papers (sometimes called manuscripts, MSes, publications, or pubs)
 
 > - proposals
 
@@ -500,4 +500,10 @@ Implications & next steps
 
 > - including code to replicate study aids review & increases your odds of acceptance
 
+## Now: put it into practice
 
+* Your homework assignment this week: write a draft Introduction for your thesis / dissertation proposal (a required SAFS Milestone).
+
+> - the Introduction of a proposal is much the same as the Introduction to a manuscript
+
+> - use the tools you learned today and in this week's readings/videos!

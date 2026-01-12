@@ -166,12 +166,19 @@ Write a draft consisting of at least 3 paragraphs with the following general str
 
 - What is the problem/question and why is it important?
 - What do we know and what is lacking in our understanding?
-- What are the 2-3 objectives and specific hypotheses/questions?
+- What are the 2-3 objectives or specific hypotheses/questions?
 
 Make sure to cite all relevant references and include them in a section labeled “References”. If you are so inclined, and you think it would help communicate the ideas in your proposal, feel free to also include a figure or schematic (this is not required, though).
 
 **Submission**
 When you are finished, submit via Canvas as a Word document or provide a link to a Google document, such that Chelsea will be able to provide comments directly on the draft itself.
+
+#### Rubric
+
+* (4 points) Problem/question is clearly enunciated
+* (4 points) Enough context/background is provided to understand why the problem/question is important
+* (4 points) The current landscape of research (what is known and what is unknown) is clearly explained
+* (3 points) Document lays out 2-3 objectives or specific hypotheses/questions
 
 <br>
 
