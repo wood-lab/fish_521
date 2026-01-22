@@ -38,6 +38,8 @@ You will be able to access your grades via Canvas. All graded material will be r
 
 **Late assignments are not accepted and will receive a grade of 0%.** However, if you anticipate being unable to meet an assignment deadline, please shoot Chelsea an e-mail or speak to her **before the deadline**, as she is very happy to arrange accommodations for you in case of illness or other unexpected roadblocks.
 
+**A note about Canvas:** All of your assignments must be submitted via Canvas and Canvas submission links will close as soon as the clock ticks over to the stated deadline - which means that you should not wait until the last minute to click "submit". Be sure to give yourself a buffer of at least a few minutes to complete the submission process. Assignments will be considered late if they are not submitted via Canvas by the stated deadline.
+
 <br>
 
 ## Grading scale
@@ -150,7 +152,7 @@ In this assignment, you will sketch out a study design for a research question t
 
 **Submitting your assignment**
 
-Write out your answers in a Word or Google doc, and then submit it via Canvas as a pdf.
+Use whatever word processing application you prefer, then print the document as a pdf and submit the pdf via Canvas.
 
 <br>
 
@@ -171,7 +173,7 @@ Write a draft consisting of at least 3 paragraphs with the following general str
 Make sure to cite all relevant references and include them in a section labeled “References”. If you are so inclined, and you think it would help communicate the ideas in your proposal, feel free to also include a figure or schematic (this is not required, though).
 
 **Submission**
-When you are finished, submit via Canvas as a Word document or provide a link to a Google document, such that Chelsea will be able to provide comments directly on the draft itself.
+Use whatever word processing application you prefer, then print the document as a pdf and submit the pdf via Canvas.
 
 #### Rubric
 
@@ -190,9 +192,9 @@ When you are finished, submit via Canvas as a Word document or provide a link to
 Write a cover letter for a submission to a journal using the template below. Base your letter upon the paper you chose for Assignment 1, as though it were your own original manuscript. Alternatively, you may choose to base your letter upon a paper you are currently getting ready to submit.
 
 **Submission**
-When you are finished, submit a Word document or Google Docs link to Canvas, such that Chelsea will be able to provide comments directly on the draft itself.
+Use whatever word processing application you prefer, then print the document as a pdf and submit the pdf via Canvas.
 
-Letter template
+**Letter template**
 [Editor’s First and Last Name], [Graduate Degree]
 [Editor’s title]
 [Journal Name]
@@ -244,7 +246,7 @@ Write a peer review of the preprint article by Purgar et al. titled Identify, qu
 Your review should follow the template provided below.
 
 **Submission**
-When you are finished, submit a Word document or a link to a Google doc via Canvas, such that Chelsea will be able to provide comments directly on the draft itself
+Use whatever word processing application you prefer, then print the document as a pdf and submit the pdf via Canvas.
 
 **Review template**
 
@@ -303,7 +305,7 @@ This version of the presentation will not be graded (although you must complete 
 - Appropriate ending
 
 **Presentation upload**
-Please note that due to our tight time frame in class, you are required to upload your presentation ahead of class time (see Canvas). Also note that presentations will only be accepted in either presentation (.ppt, .pptx) or PDF (.pdf) formats. If you use an .html format (eg, ioslides, Xaringan), you will need to print your slide deck to a .pdf format using your browser’s print function.
+Please note that due to our tight time frame in class, you are required to upload your presentation ahead of class time (see Canvas). Also note that presentations will only be accepted in either presentation (.ppt, .pptx) or pdf (.pdf) formats. If you use an .html format (eg, ioslides, Xaringan), you will need to print your slide deck to a .pdf format using your browser’s print function.
 
 <br>
 
@@ -334,7 +336,7 @@ This version of the presentation **will** be graded. The quality of your present
 - Appropriate ending
 
 **Presentation upload**
-Please note that due to our tight time frame in class, you are required to upload your presentation ahead of class time (see Canvas). Also note that presentations will only be accepted in either presentation (.ppt, .pptx) or PDF (.pdf) formats. If you use an .html format (eg, ioslides, Xaringan), you will need to print your slide deck to a .pdf format using your browser’s print function.
+Please note that due to our tight time frame in class, you are required to upload your presentation ahead of class time (see Canvas). Also note that presentations will only be accepted in either presentation (.ppt, .pptx) or pdf (.pdf) formats. If you use an .html format (eg, ioslides, Xaringan), you will need to print your slide deck to a .pdf format using your browser’s print function.
 
 <br>
 
@@ -363,7 +365,7 @@ Write a full draft of your research proposal with the following general structur
 **References** - Make sure to cite all relevant references and include them in a section labeled “References”. Format your references using some form of (Author(s) Year) or Author(s) (Year) style rather than superscripted numbers or letters.
 
 **Submission**
-When you are finished, submit via Canvas a Word document or a link to a Google Document, such that Chelsea will be able to provide comments directly on the draft itself.
+Use whatever word processing application you prefer, then print the document as a pdf and submit the pdf via Canvas.
 
 <br>
 
