@@ -156,7 +156,7 @@ If you are a FISH 521 student, this website will be your resource for all course
 * [How to write a cover letter](https://wood-lab.github.io/fish_521/references/cover_letter_template.pdf)
 * [How to recognize a predatory journal](https://wood-lab.github.io/fish_521/references/Oviedo-Garcia_2021.pdf)
 * [Bookmark this list of predatory journals](https://beallslist.net)
-* [Good enough practices in scientific computing](https://wood-lab.github.io/fish_521/references/Wilson_et_al.2017.pdf)
+* [Good enough practices in scientific computing](https://wood-lab.github.io/fish_521/references/Wilson_et_al._2017.pdf)
 * [BES guide to reproducible code](https://wood-lab.github.io/fish_521/references/BES_guide_to_reproducible_code.pdf)
 * [Packaging data analytical work reproducibly using R](https://wood-lab.github.io/fish_521/references/Marwick_etal_2018_research_compendia.pdf)
 
