@@ -424,4 +424,11 @@ Alternatively, consider some existing tools
 > - Ben Marwick's [{rrtools}](https://github.com/benmarwick/rrtools)
 
 
+## For next week
+
+Which set of proposals to do you want to review?
+
+**Proposals 1a and 1b.** Using coral reef fish parasites to assess the impact of biodiversity loss on parasite transmission (NSF's Biological Oceanography Program)
+
+**Proposals 2a and 2b.** Exploiting spatial variability in warming trends across the Gulf of Alaska to assess the impact of climate change on parasite transmission (North Pacific Research Board)
 

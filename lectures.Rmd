@@ -189,8 +189,6 @@ If you are a FISH 521 student, this website will be your resource for all course
 * [Unprofessional peer reviews](https://wood-lab.github.io/fish_521/references/Silbiger_2019_peer_review_urm.pdf)
 * [Overly harsh peer reviews](https://wood-lab.github.io/fish_521/references/Clements_2020_prig_peer_review.pdf)
 * [Quantifying professionalism in peer reviews](https://wood-lab.github.io/fish_521/references/Gerwing_2020_prof_peer_review.pdf)
-* Proposal #1
-* Proposal #2
 
 **Required videos:** 
 
@@ -199,6 +197,17 @@ If you are a FISH 521 student, this website will be your resource for all course
 * [How to deal with manuscript rejections](https://www.youtube.com/watch?v=ZpZNTEHVmdw)
 * [Revising a paper after peer review](https://youtu.be/j-px82MMmA4?si=5yWZMWdVYk-xBlOD)
 * [How to revise and resubmit in no time](https://members.ncfdd.org/hhchapter6)
+
+**Required preparation:**
+
+You have been assigned to review two real-life proposals submitted to funding agencies by Chelsea: either Proposals 1a and 1b or Proposals 2a and 2b. Here are the proposals:
+
+* Coral reef parasites: [Proposal 1a](https://wood-lab.github.io/fish_521/references/proposal_1a.pdf)
+* Coral reef parasites: [Proposal 1b](https://wood-lab.github.io/fish_521/references/proposal_1b.pdf)
+* Gulf of Alaska parasites: [Proposal 2a](https://wood-lab.github.io/fish_521/references/proposal_2a.pdf)
+* Gulf of Alaska parasites: [Proposal 2b](https://wood-lab.github.io/fish_521/references/proposal_2b.pdf)
+
+Within each pair of proposals, one was funded and one was not. Your job is to provide a review of each proposal, using the [NSF template](https://wood-lab.github.io/fish_521/references/nsf_review_template.docx) (see [NSF review criteria](https://www.nsf.gov/policies/pappg/24-1/ch-3-proposal-processing-review#a-merit-review-principles-and-criteria-af2) for details of what to look for). You do not need to submit your review, but you should complete it because it will prepare you to engage in the mock panel we will hold in class. For each pair of proposals, the panel will decide which to fund. I'll tell you at the end of class whether you chose the same proposal that the funder chose.
 
 **In-class activity:** 
 
