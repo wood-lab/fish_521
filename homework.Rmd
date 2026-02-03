@@ -88,7 +88,7 @@ Note that there will be no curve.
 
 # Assignments
 
-## Assignment 1
+## Assignment 1: due 12 Jan 2026
 
 ### Finding an interesting paper
 
@@ -106,7 +106,7 @@ Provide the citations for 5 papers that cited your focal paper and that you are 
 
 <br>
 
-## Assignment 2
+## Assignment 2: due 19 Jan 2026
 
 ### Study design
 
@@ -156,7 +156,7 @@ Use whatever word processing application you prefer, then print the document as 
 
 <br>
 
-## Assignment 3
+## Assignment 3: due 2 Feb 2026
 
 ### Draft proposal introduction
 
@@ -184,7 +184,7 @@ Use whatever word processing application you prefer, then print the document as 
 
 <br>
 
-## Assignment 4 
+## Assignment 4: due 9 Feb 2026
 
 ### Writing a cover letter
 
@@ -236,7 +236,7 @@ Corresponding Author
 
 <br>
 
-## Assignment 5
+## Assignment 5: due 16 Feb 2026
 
 ### Reviewing a manuscript
 
@@ -278,7 +278,7 @@ L333: There is a citation here for Smith (2020), but that reference does not app
 
 <br>
 
-## Assignment 6
+## Assignment 6: due 2 Mar 2026
 
 ### Practice proposal presentation
 
@@ -309,7 +309,7 @@ Please note that due to our tight time frame in class, you are required to uploa
 
 <br>
 
-## Assignment 7 
+## Assignment 7: due 9 Mar 2026
 
 ### Formal proposal presentation
 
@@ -340,7 +340,7 @@ Please note that due to our tight time frame in class, you are required to uploa
 
 <br>
 
-## Assignment 8 
+## Assignment 8: due 17 Mar 2026
 
 ### Final proposal
 
