@@ -34,7 +34,7 @@ knitr::opts_chunk$set(echo = FALSE)
 > - **Post-publication open**: editor mediates readers' and reviewers' comments after publication
 
 
-## Why do peer review?
+## Why do peer review? Altruistic reasons
 
 * Improves the quality of articles that are published
 
@@ -45,7 +45,7 @@ knitr::opts_chunk$set(echo = FALSE)
 > - Screens for unethical practice
 
 
-## Why do peer review?
+## Why do peer review? Selfish reasons
 
 * Keep abreast of latest research
 
