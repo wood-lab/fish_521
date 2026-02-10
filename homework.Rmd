@@ -240,33 +240,34 @@ Corresponding Author
 
 ### Reviewing a manuscript
 
-**Instructions**
+#### Instructions
 
-Riding the momentum of our proposal review of four parasite projects, let's continue our peer review exercises by examining a parasite paper! For this assignment, you will write a peer review of the preprint article by Mastick et al. titled, "Widespread parasite infections in living resident killer whales in the Northeast Pacific Ocean", which has been posted to the bioRxiv preprint server and which you can download [here](https://doi.org/10.1101/2024.07.10.602791). Bonus: the first author received her PhD from SAFS in 2023, and this paper is a good example of what a SAFS dissertation chapter looks like.
+Riding the momentum of our proposal review of four parasite projects, let's continue our peer review exercises by examining a parasite paper! For this assignment, you will write a peer review of the preprint article by Mastick et al. titled, "Widespread parasite infections in living resident killer whales in the Northeast Pacific Ocean", which has been posted to the bioRxiv preprint server and which you can download [here](https://doi.org/10.1101/2024.07.10.602791). As you write this peer review, imagine that you are reviewing it for a general ecology journal. Bonus: the first author received her PhD from SAFS in 2023, and this paper is a good example of what a SAFS dissertation chapter looks like.
 
 Your review should follow the template provided below.
 
-**Submission**
+#### Submission
+
 Use whatever word processing application you prefer, then print the document as a pdf and submit the pdf via Canvas.
 
-**Review template**
+#### Review template
 
-*Comments to the editor (These are confidential and will not be seen by the authors.)*
+**Comments to the editor (These are confidential and will not be seen by the authors.)**
 
 This is an opportunity to place your comments or major concerns into context. This section should be brief (1 paragraph).
 
 
-*General comments (These comments go directly to the authors.)*
+**General comments (These comments go directly to the authors.)**
 
 I typically begin this section with a one paragraph summary of what I thought the paper was about and then I highlight major findings/conclusions.
 
 I then write 1-4 paragraphs that synthesize the most critical aspects of the quality of the science (either positive or negative) that you think should influence the manuscript decision. I also add big-picture suggestions for improving the manuscript, such as
 
-- *Scientific quality:* soundness of results and analysis, novelty, support of conclusions, and cohesiveness of argument
-- *Writing and presentation:* organization and flow of manuscript, writing style, quality of figures and tables, clarity in message, length relative to information content
+- **Scientific quality:** soundness of results and analysis, novelty, support of conclusions, and cohesiveness of argument
+- **Writing and presentation:** organization and flow of manuscript, writing style, quality of figures and tables, clarity in message, length relative to information content
 
 
-*Specific comments (These comments go directly to the authors.)*
+**Specific comments (These comments go directly to the authors.)**
 
 These are meant to highlight specific issues/problems you have with background, analyses, interpretation, etc. I prefer to reference these by page/line number, if/when possible. For example,
 
