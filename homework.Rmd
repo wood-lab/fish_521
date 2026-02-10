@@ -241,7 +241,8 @@ Corresponding Author
 ### Reviewing a manuscript
 
 **Instructions**
-Write a peer review of the preprint article by Purgar et al. titled Identify, quantify, act: Tackling the unused potential of ecological research, which has been posted to the EcoEvoRxiv Preprint server and you can download here. This paper is written in more of an essay format, but it is general enough that everyone in class should be able to read, understand, and comment on it.
+
+Riding the momentum of our proposal review of four parasite projects, let's continue our peer review exercises by examining a parasite paper! For this assignment, you will write a peer review of the preprint article by Mastick et al. titled, "Widespread parasite infections in living resident killer whales in the Northeast Pacific Ocean", which has been posted to the bioRxiv preprint server and which you can download [here](https://doi.org/10.1101/2024.07.10.602791). Bonus: the first author received her PhD from SAFS in 2023, and this paper is a good example of what a SAFS dissertation chapter looks like.
 
 Your review should follow the template provided below.
 
@@ -250,13 +251,12 @@ Use whatever word processing application you prefer, then print the document as 
 
 **Review template**
 
-
-Comments to the editor (These are confidential and will not be seen by the authors.)
+*Comments to the editor (These are confidential and will not be seen by the authors.)*
 
 This is an opportunity to place your comments or major concerns into context. This section should be brief (1 paragraph).
 
 
-General comments (These comments go directly to the authors.)
+*General comments (These comments go directly to the authors.)*
 
 I typically begin this section with a one paragraph summary of what I thought the paper was about and then I highlight major findings/conclusions.
 
@@ -266,7 +266,7 @@ I then write 1-4 paragraphs that synthesize the most critical aspects of the qua
 - *Writing and presentation:* organization and flow of manuscript, writing style, quality of figures and tables, clarity in message, length relative to information content
 
 
-Specific comments (These comments go directly to the authors.)
+*Specific comments (These comments go directly to the authors.)*
 
 These are meant to highlight specific issues/problems you have with background, analyses, interpretation, etc. I prefer to reference these by page/line number, if/when possible. For example,
 
