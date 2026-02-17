@@ -231,17 +231,20 @@ Within each pair of proposals, one was funded and one was not. Your job is to pr
 * [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 * [Creating a free website via Markdown](https://wood-lab.github.io/fish_521/lectures/week_07/lec_06b_websites.html)
 * [Online outreach](https://wood-lab.github.io/fish_521/references/Bik_2015_ten_simple_rules.pdf)
+* If you already have a professional website, please come to class prepared to work on it (make sure you have your password and whatever else you need to access it). If you don't yet have a website, we'll work through the process of using GitHub to launch a free website for you.
 
 **Required videos:** 
 
 * [Giving an effective scientific presentation](https://www.youtube.com/watch?v=Hp7Id3Yb9XQ)
 * [Personal websites for scientists](https://www.youtube.com/watch?v=3g-bNajtxZE)
+* [Here's what you're going to be asked to do in class](https://vimeo.com/336397662)
 
 **In-class activity:** 
 
 * [In-class presentation](lectures/week_07/lec_06_scicomm.html)
-* [In-class presentation](lectures/week_07/lec_06b_websites.html)
-* [In-class presentation](lectures/week_07/lec_06c_websites.html)
+* [Grad Slam exercise](https://gradslam.universityofcalifornia.edu)
+* E-mail etiquette - dos and don'ts
+* [Let's make a website!](lectures/week_07/lec_06b_websites.html)
 
 <br>
   
