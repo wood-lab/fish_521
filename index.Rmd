@@ -22,7 +22,7 @@ h3 {
 
 
 <p align="center">
-    <img src="images/IMG_4940.HEIC">
+    <img src="/images/students_at_work.jpg">
     <center></center>
 </p>
 

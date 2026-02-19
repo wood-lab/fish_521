@@ -84,7 +84,6 @@ If you are a FISH 521 student, this website will be your resource for all course
 * How to ask scientific questions
 * Structuring a proposal
 * Using a message box
-* Writing an abstract
 
 **Required readings:** 
 
@@ -93,7 +92,6 @@ If you are a FISH 521 student, this website will be your resource for all course
 * [*Field Guide to Graduate School*](https://press.princeton.edu/books/paperback/9780691201092/a-field-guide-to-grad-school?srsltid=AfmBOooNXYYd-0yyIIr7Mz0qAQNxbQ8wfWQz-Qod86wn9DO9pQPIWTcE) Chapter 7: Writing about your research
 * [Proposal recipe](https://wood-lab.github.io/fish_521/references/proposal_recipe.jpg)
 * [Message box](https://wood-lab.github.io/fish_521/references/message_box.pdf)
-* [How to write a *Nature* abstract](https://wood-lab.github.io/fish_521/references/nature_summary_paragraph.pdf)
 
 **Required videos:** 
 
@@ -107,7 +105,6 @@ If you are a FISH 521 student, this website will be your resource for all course
 * Trade-offs between certainty and scope of inference in experimental design
 * Proposals
 * Craft your message using a message box
-* Writing an abstract
 
 <br>
 
@@ -117,12 +114,14 @@ If you are a FISH 521 student, this website will be your resource for all course
 **Topics to be covered:**
 
 * Manuscript structure
+* Writing an abstract
 * Manuscript life cycles (including response to reviewers)
 * Authorship and contributions
 
 **Required readings:** 
 
 * [*Field Guide to Graduate School*](https://press.princeton.edu/books/paperback/9780691201092/a-field-guide-to-grad-school?srsltid=AfmBOooNXYYd-0yyIIr7Mz0qAQNxbQ8wfWQz-Qod86wn9DO9pQPIWTcE) Chapter 8: Publishing and promoting your work
+* [How to write a *Nature* abstract](https://wood-lab.github.io/fish_521/references/nature_summary_paragraph.pdf)
 * [Guidelines for authorship in the field of ecology](https://wood-lab.github.io/fish_521/references/Weltzin_ecology_authorship.pdf)
 * [Avoiding and overcoming authorship conflicts](https://wood-lab.github.io/fish_521/references/Cooke_10_rules_authorship.pdf)
 
@@ -166,6 +165,9 @@ If you are a FISH 521 student, this website will be your resource for all course
 * [Writing the cover letter for your manuscript](https://youtu.be/52OyqlGrUhE?si=3y3VqAbfazAbvoxv)
 * [What goes into supplementary material?](https://youtu.be/ytmWAfobmAc?si=YN4nXxdI-odOJIcQ)
 * [Reproducibility](https://youtu.be/N0fu3hbhN8k?si=geTzW_k9VoE7tnUF)
+* [How to deal with manuscript rejections](https://www.youtube.com/watch?v=ZpZNTEHVmdw)
+* [Revising a paper after peer review](https://youtu.be/j-px82MMmA4?si=5yWZMWdVYk-xBlOD)
+* [How to revise and resubmit in no time](https://members.ncfdd.org/hhchapter6)
 
 **In-class activity:** 
 
@@ -193,9 +195,6 @@ If you are a FISH 521 student, this website will be your resource for all course
 
 * [How to critically evaluate a research paper](https://www.youtube.com/watch?v=64DHO3hAeSM)
 * [How to provide a constructive peer review of a paper](https://youtu.be/cL7ktwQBg4I?si=GnUTAiQlccgsntgc)
-* [How to deal with manuscript rejections](https://www.youtube.com/watch?v=ZpZNTEHVmdw)
-* [Revising a paper after peer review](https://youtu.be/j-px82MMmA4?si=5yWZMWdVYk-xBlOD)
-* [How to revise and resubmit in no time](https://members.ncfdd.org/hhchapter6)
 
 **Required preparation:**
 
