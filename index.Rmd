@@ -22,10 +22,9 @@ h3 {
 
 
 <p align="center">
-    <img src="students_at_work.webp">
+    <img src="images/IMG_4940.HEIC">
+    <center></center>
 </p>
-
-<center>FISH 521 students hard at work</center>
 
 <br>
 
