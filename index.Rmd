@@ -22,8 +22,8 @@ h3 {
 
 
 <p align="center">
-    <img src="/images/students_at_work.jpg">
-    <center></center>
+    <img src="ship.jpg">
+    <center>SAFS students hard at work</center>
 </p>
 
 <br>
