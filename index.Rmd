@@ -22,10 +22,10 @@ h3 {
 
 
 <p align="center">
-    <img src="chat_gpt_SAFS.webp">
+    <img src="students_at_work.webp">
 </p>
 
-<center>image created with ChatGPT image generator</center>
+<center>FISH 521 students hard at work</center>
 
 <br>
 
