@@ -227,6 +227,7 @@ Within each pair of proposals, one was funded and one was not. Your job is to pr
 
 * [*Field Guide to Graduate School*](https://press.princeton.edu/books/paperback/9780691201092/a-field-guide-to-grad-school?srsltid=AfmBOooNXYYd-0yyIIr7Mz0qAQNxbQ8wfWQz-Qod86wn9DO9pQPIWTcE) Chapter 9: Talking about your research
 * [*Field Guide to Graduate School*](https://press.princeton.edu/books/paperback/9780691201092/a-field-guide-to-grad-school?srsltid=AfmBOooNXYYd-0yyIIr7Mz0qAQNxbQ8wfWQz-Qod86wn9DO9pQPIWTcE) Chapter 10: Going to conferences
+* Kevin Lafferty's [How to give a scientific presentation](https://wood-lab.github.io/fish_521/references/Lafferty_essay.pdf) - Kevin is one of the best speakers I know and this essay is jam-packed with useful advice!
 * [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 * [Creating a free website via Markdown](https://wood-lab.github.io/fish_521/lectures/week_07/lec_06b_websites.html)
 * [Online outreach](https://wood-lab.github.io/fish_521/references/Bik_2015_ten_simple_rules.pdf)
