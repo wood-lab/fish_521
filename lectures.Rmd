@@ -121,6 +121,7 @@ If you are a FISH 521 student, this website will be your resource for all course
 **Required readings:** 
 
 * [*Field Guide to Graduate School*](https://press.princeton.edu/books/paperback/9780691201092/a-field-guide-to-grad-school?srsltid=AfmBOooNXYYd-0yyIIr7Mz0qAQNxbQ8wfWQz-Qod86wn9DO9pQPIWTcE) Chapter 8: Publishing and promoting your work
+* Kevin Lafferty's [How to write a scientific paper](https://wood-lab.github.io/fish_521/references/Lafferty_how_to_paper.pdf)
 * [How to write a *Nature* abstract](https://wood-lab.github.io/fish_521/references/nature_summary_paragraph.pdf)
 * [Guidelines for authorship in the field of ecology](https://wood-lab.github.io/fish_521/references/Weltzin_ecology_authorship.pdf)
 * [Avoiding and overcoming authorship conflicts](https://wood-lab.github.io/fish_521/references/Cooke_10_rules_authorship.pdf)
