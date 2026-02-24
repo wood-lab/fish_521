@@ -1,8 +1,8 @@
 ---
-title: "Career panel"
+title: "How to do it all"
 subtitle: "Proposal writing & professional development<br>FISH 521"
-author: "Mark Scheuerell"
-date: "11 March 2024"
+author: "Chelsea Wood"
+date: "9 March 2026"
 output:
   ioslides_presentation:
     css: lecture_slides.css

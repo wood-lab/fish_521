@@ -220,15 +220,36 @@ Within each pair of proposals, one was funded and one was not. Your job is to pr
 
 **Topics to be covered:**
 
-* Scientific presentations
-* (by popular request) E-mail etiquette
-* Web presence
+* How to give a scientific presentation
 
 **Required readings:** 
 
 * [*Field Guide to Graduate School*](https://press.princeton.edu/books/paperback/9780691201092/a-field-guide-to-grad-school?srsltid=AfmBOooNXYYd-0yyIIr7Mz0qAQNxbQ8wfWQz-Qod86wn9DO9pQPIWTcE) Chapter 9: Talking about your research
 * [*Field Guide to Graduate School*](https://press.princeton.edu/books/paperback/9780691201092/a-field-guide-to-grad-school?srsltid=AfmBOooNXYYd-0yyIIr7Mz0qAQNxbQ8wfWQz-Qod86wn9DO9pQPIWTcE) Chapter 10: Going to conferences
 * Kevin Lafferty's [How to give a scientific presentation](https://wood-lab.github.io/fish_521/references/Lafferty_essay.pdf) - Kevin is one of the best speakers I know and this essay is jam-packed with useful advice!
+
+**Required videos:** 
+
+* [Giving an effective scientific presentation](https://www.youtube.com/watch?v=Hp7Id3Yb9XQ)
+* [Here's what you're going to be asked to do in class](https://vimeo.com/336397662)
+
+**In-class activity:** 
+
+* [In-class presentation](lectures/week_07/lec_06_scicomm.html)
+* [Grad Slam exercise](https://gradslam.universityofcalifornia.edu)
+
+<br>
+  
+
+## Class 7: Practice proposal presentations + websites
+
+**Topics to be covered:**
+
+* Your practice proposal presentations! Sign-up with your uw.edu identity [here](https://docs.google.com/spreadsheets/d/10H6DrWte3cjqrg5sqQu5wIiKtXmylq7JR4ZqWBClcRY/edit?usp=sharing).
+* Web presence
+
+**Required readings:** 
+
 * [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 * [Creating a free website via Markdown](https://wood-lab.github.io/fish_521/lectures/week_07/lec_06b_websites.html)
 * [Online outreach](https://wood-lab.github.io/fish_521/references/Bik_2015_ten_simple_rules.pdf)
@@ -236,31 +257,27 @@ Within each pair of proposals, one was funded and one was not. Your job is to pr
 
 **Required videos:** 
 
-* [Giving an effective scientific presentation](https://www.youtube.com/watch?v=Hp7Id3Yb9XQ)
 * [Personal websites for scientists](https://www.youtube.com/watch?v=3g-bNajtxZE)
-* [Here's what you're going to be asked to do in class](https://vimeo.com/336397662)
 
 **In-class activity:** 
 
-* [In-class presentation](lectures/week_07/lec_06_scicomm.html)
-* [Grad Slam exercise](https://gradslam.universityofcalifornia.edu)
-* E-mail etiquette - dos and don'ts
+* Your practice proposal presentations! Sign-up with your uw.edu identity [here](https://docs.google.com/spreadsheets/d/10H6DrWte3cjqrg5sqQu5wIiKtXmylq7JR4ZqWBClcRY/edit?usp=sharing).
 * [Let's make a website!](lectures/week_07/lec_06b_websites.html)
 
 <br>
-  
 
-## Class 7: How to do it all
+
+## Class 8: How to do it all
 
 **Topics to be covered:**
 
-* Your practice proposal presentations!
+* Your final proposal presentations! Sign-up with your uw.edu identity [here](https://docs.google.com/spreadsheets/d/1PIv0UwwatBUK20fSi7EkkughOe4lqaWcNTrsSXGqJoo/edit?usp=sharing).
 * How to secure letters of recommendation and ensure that they are spectacular
+* (by popular request) E-mail etiquette
 * (by popular request) Special considerations for ADHD/AuDHD scientists
 * (by popular request) How to organize your stuff and find it again later
 * How to get what you want
 * How to do it all without overdoing it
-
 
 **Required readings:** 
 
@@ -271,33 +288,12 @@ Within each pair of proposals, one was funded and one was not. Your job is to pr
 * [NCFDD Skill #6: The art of saying no](https://members.ncfdd.org/webinars/artofno25)
 * [NCFDD Skill #8: Overcoming academic perfectionism](https://members.ncfdd.org/webinars/academicperf25)
 * [NCFDD Skill #10: How to manage stress, rejection, and haters in your midst](https://members.ncfdd.org/webinars/rejection25)
-* video from Chelsea on letters of rec
+* [NCFDD Hidden Handbook: The art of saying "yes": Seeking and securing opportunities in academia](https://members.ncfdd.org/hhchapter9)
 
 **In-class activity:** 
 
-* [In-class presentation](lectures/week_09/lec_07_presentations.html)
-
-<br>
-
-
-## Class 8: Proposal presentations
-
-**Topics to be covered:**
-
-* Your final proposal presentations!
-
-**Required readings:** 
-
-* None!
-
-**Required videos:** 
-
-* [The art of saying "yes": Seeking and securing opportunities in academia](https://members.ncfdd.org/hhchapter9)
-
-**In-class activity:** 
-
+* Your final proposal presentations! Sign-up with your uw.edu identity [here](https://docs.google.com/spreadsheets/d/1PIv0UwwatBUK20fSi7EkkughOe4lqaWcNTrsSXGqJoo/edit?usp=sharing).
 * [In-class presentation](lectures/week_10/lec_08_panel.html)
-* Your final proposal presentations!
 
 <br>
 

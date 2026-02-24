@@ -1,8 +1,8 @@
 ---
-title: "Student presentations"
+title: "Practice proposal presentations + websites"
 subtitle: "Proposal writing & professional development<br>FISH 521"
 author: "Chelsea Wood"
-date: "3 March 2024"
+date: "2 March 2026"
 output:
   ioslides_presentation:
     css: lecture_slides.css
