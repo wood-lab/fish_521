@@ -284,7 +284,7 @@ L333: There is a citation here for Smith (2020), but that reference does not app
 ### Practice proposal presentation
 
 **Background**
-Your assignment this week is to give a **practice version** your proposal presentation in class. Your presentation should cover the following elements:
+Your assignment this week is to give a **practice version** your proposal presentation in class. Your presentation should be 12 minutes long (leaving 3 minutes for questions), and should cover the following elements:
 
 - Background and rationale for your proposed research
 - Questions of interest (or hypotheses to test)
@@ -315,7 +315,7 @@ Please note that due to our tight time frame in class, you are required to uploa
 ### Formal proposal presentation
 
 **Background**
-Your assignment this week is to give a **formal version** your proposal presentation in class, for a grade. Your presentation should cover the following elements:
+Your assignment this week is to give a **formal version** your proposal presentation in class, for a grade. Your presentation should be 12 minutes long (leaving 3 minutes for questions), and should cover the following elements:
 
 - Background and rationale for your proposed research
 - Questions of interest (or hypotheses to test)
