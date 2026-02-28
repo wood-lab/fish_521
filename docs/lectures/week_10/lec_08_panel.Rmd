@@ -13,4 +13,107 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
-# Please see the panel website [here](https://career-panel.netlify.app/) for details
+# Proposal presentations!
+
+# A few how-tos
+
+## How to get a spectacular letter of rec
+
+Any interaction that you have with your letter writer is fair game for inclusion in a letter - explicitly or implicitly, for better or for worse. This means you should be taking every opportunity to demonstrate:
+
+> - reliability
+
+> - responsiveness
+
+> - professionalism (including good time management skills)
+
+> - positivity
+
+> - honesty
+
+> - proactivity / independence
+
+
+## How to handle e-mail
+
+E-mail is how academia communicates, and a very easy way to endear yourself to your advisors, colleagues, and potential collaborators is to manage your e-mail well. What does this mean?
+
+> - reliability
+
+> - responsiveness
+
+> - professionalism (including good time management skills)
+
+> - positivity
+
+> - honesty
+
+> - proactivity / independence
+
+
+## How to be an ADHD/AuDHD/autistic scientist
+
+Welcome! You're in good company, as a large proportion of successful academics are neurodivergent.
+
+> - If you need accommodations, get them through [DRS](https://depts.washington.edu/uwdrs/).
+
+> - Access the [D Center](https://hub.washington.edu/dcenter/).
+
+> - Consider joining [Autistics @ UW](https://huskylink.washington.edu/organization/autistics) or [Huskies for Neurodiversity](https://huskies4neurodiver.wixsite.com/hfnuw)
+
+> - Read [*Taking Charge of Adult ADHD*](https://www.guilford.com/books/Taking-Charge-of-Adult-ADHD/Russell-Barkley/9781462546855?srsltid=AfmBOopMWZyxTGxrza2ks0QPe8RN0cS1JnDk62pQArO9UMYFCVZ5UG_k) by Russell Barkley or [*Thriving with Adult ADHD*](https://www.goodreads.com/book/show/43164273-thriving-with-adult-adhd) by Phil Boissiere
+
+> - Read [*The Autistic Brain*](https://www.goodreads.com/book/show/16056498-the-autistic-brain) by Temple Grandin
+
+> - Work with your advisor, GPA, and GPC to develop strategies that work for your brain.
+
+## How to organize stuff
+
+> - Develop a file folder system on your hard drive and for your e-mail.
+
+> - Gmail bad, Thunderbird good.
+
+> - Keep a lab notebook on paper or on your computer (e.g., Evernote).
+
+> - Back up your computer onto at least one additional physical disk and one additional cloud-based space.
+
+> - Use the system you developed at the beginning of the quarter (calendar, to-do list, weekly meeting to bring them together).
+
+## How to get what you want
+
+There will come a time that you want something big. Here's how to get it:
+
+> - Build the relationships (see advice on letter writers above).
+
+> - Be direct.
+
+> - Do not manipulate - people can sense this a mile away, and it dissuades their cooperation.
+
+> - Give them an out - if people feel cornered, it dissuades their cooperation.
+
+> - Use face-to-face meetings for high-stakes conversations (not e-mail or text).
+
+> - Do not demand - collaborate. (Don't say "no", say "let's go!")
+
+## How to do it all without overdoing it
+
+There is always more to do than there is time to do it. If that's so, how do you stay balanced?
+
+> - Align your time with your priorities.
+
+> - Write every weekday.
+
+> - Sleep at least 8 hours per night.
+
+> - Find ways around your writing resistance.
+
+> - Say no to things that don't advance your goals (enough).
+
+> - Cultivate your mentoring network.
+
+> - Don't aim for perfection - aim for grit.
+
+> - Connect with your source of science joy as often as you can.
+
+
+# Thank you for a fantastic quarter!
