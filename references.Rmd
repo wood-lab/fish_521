@@ -3,6 +3,8 @@ title: "Resources"
 output: html_document
 ---
 
+<html lang="en">
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
