@@ -4,6 +4,8 @@ subtitle: "FISH 521 &nbsp; &nbsp; University of Washington &nbsp; &nbsp; Winter 
 output: html_document
 ---
 
+<html lang="en">
+
 <style>
 h1 {
   text-align: center;
@@ -22,7 +24,7 @@ h3 {
 
 
 <p align="center">
-    <img src="ship.jpg">
+    <img src="ship.jpg" alt="SAFS students hard at work">
     <center>SAFS students hard at work</center>
 </p>
 
