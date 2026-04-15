@@ -3,6 +3,8 @@ title: "Schedule"
 output: html_document
 ---
   
+<html lang="en">  
+  
 ```{r generate_calendar, eval = TRUE, echo=FALSE}
 ## load library
 library(toastui)
