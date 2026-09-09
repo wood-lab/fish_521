@@ -3,6 +3,17 @@ title: "Schedule"
 output: html_document
 ---
   
+<style>
+.toastui-calendar-popup-container {
+  background-color: white !important;
+  color: black !important;
+}
+
+.toastui-calendar-popup-container * {
+  color: black !important;
+}
+</style>
+
 <html lang="en">  
   
 ```{r generate_calendar, eval = TRUE, echo=FALSE}
@@ -27,5 +38,7 @@ calendar(cal_data, navigation = TRUE, defaultDate = Sys.Date()) %>%
 ```
 
 <br>
+<br>
+<center>For a fully accessible version of this calendar, download [the csv file](calendar_data.csv).</center>
 </br>
 <center>*This site was last updated at `r format(Sys.time(), "%H:%M")` on `r format(Sys.Date(), "%d %b %Y")`*</center>
